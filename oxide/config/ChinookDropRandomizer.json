@@ -1,0 +1,131 @@
+{
+  "Prevent the game from handling chinook drops": false,
+  "Time before chinook starts trying to drop (seconds)": 200.0,
+  "Minimum time until drop (seconds)": 40.0,
+  "Maximum time until drop (seconds)": 60.0,
+  "Minimum number of online players to drop": 0,
+  "Don't drop above water": true,
+  "Don't drop above monuments": true,
+  "What monuments to check (only works if monument checking is enabled)": {
+    "Harbor": {
+      "Enabled": true,
+      "Monument size": 125.0
+    },
+    "Large Fishing Village": {
+      "Enabled": true,
+      "Monument size": 0.0
+    },
+    "Fishing Village": {
+      "Enabled": true,
+      "Monument size": 0.0
+    },
+    "Abandoned Military Base": {
+      "Enabled": true,
+      "Monument size": 0.0
+    },
+    "Launch Site": {
+      "Enabled": true,
+      "Monument size": 265.0
+    },
+    "Bandit Camp": {
+      "Enabled": true,
+      "Monument size": 80.0
+    },
+    "Outpost": {
+      "Enabled": true,
+      "Monument size": 115.0
+    },
+    "Junkyard": {
+      "Enabled": true,
+      "Monument size": 150.0
+    },
+    "Ranch": {
+      "Enabled": true,
+      "Monument size": 0.0
+    },
+    "Giant Excavator Pit": {
+      "Enabled": true,
+      "Monument size": 180.0
+    },
+    "Military Tunnel": {
+      "Enabled": true,
+      "Monument size": 120.0
+    },
+    "Water Treatment Plant": {
+      "Enabled": true,
+      "Monument size": 190.0
+    },
+    "Airfield": {
+      "Enabled": true,
+      "Monument size": 200.0
+    },
+    "Power Plant": {
+      "Enabled": true,
+      "Monument size": 150.0
+    },
+    "Train Yard": {
+      "Enabled": true,
+      "Monument size": 130.0
+    },
+    "Sewer Branch": {
+      "Enabled": true,
+      "Monument size": 80.0
+    },
+    "Large Barn": {
+      "Enabled": true,
+      "Monument size": 0.0
+    },
+    "The Dome": {
+      "Enabled": true,
+      "Monument size": 65.0
+    },
+    "HQM Quarry": {
+      "Enabled": true,
+      "Monument size": 30.0
+    },
+    "Satellite Dish": {
+      "Enabled": true,
+      "Monument size": 95.0
+    },
+    "Stone Quarry": {
+      "Enabled": true,
+      "Monument size": 30.0
+    },
+    "Sulfur Quarry": {
+      "Enabled": true,
+      "Monument size": 30.0
+    },
+    "Abandoned Cabins": {
+      "Enabled": true,
+      "Monument size": 50.0
+    },
+    "Mining Outpost": {
+      "Enabled": true,
+      "Monument size": 40.0
+    },
+    "Oxum's Gas Station": {
+      "Enabled": true,
+      "Monument size": 40.0
+    },
+    "Abandoned Supermarket": {
+      "Enabled": true,
+      "Monument size": 30.0
+    },
+    "Underwater Lab": {
+      "Enabled": true,
+      "Monument size": 0.0
+    },
+    "Large Oil Rig": {
+      "Enabled": true,
+      "Monument size": 100.0
+    },
+    "Oil Rig": {
+      "Enabled": true,
+      "Monument size": 50.0
+    },
+    "Lighthouse": {
+      "Enabled": true,
+      "Monument size": 40.0
+    }
+  }
+}

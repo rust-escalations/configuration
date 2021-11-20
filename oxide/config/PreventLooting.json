@@ -1,0 +1,31 @@
+{
+  "AdminCanLoot": true,
+  "CanAuthorizeCupboard": true,
+  "CanLootBackpack": false,
+  "CanLootBackpackPlugin": false,
+  "CanLootCorpse": false,
+  "CanLootEntity": false,
+  "CanLootPlayer": false,
+  "CanOvenToggle": false,
+  "CanPickup": false,
+  "ExcludeEntities": [
+    "mailbox.deployed"
+  ],
+  "UseCupboard": false,
+  "UseCupboardInclude": [
+    "storage"
+  ],
+  "UseExcludeEntities": true,
+  "UseFriendsAPI": true,
+  "UseOnlyInCupboardRange": false,
+  "UseOnlyInCupboardRangeInclude": [
+    "storage"
+  ],
+  "UsePermission": false,
+  "UseTeams": true,
+  "UseZoneManager": true,
+  "ZoneID": [
+    "12345678"
+  ],
+  "ZoneManagerIncludeMode": false
+}

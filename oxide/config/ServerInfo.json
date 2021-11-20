@@ -1,0 +1,123 @@
+{
+  "settings": {
+    "Tabs": [
+      {
+        "ButtonText": "Info",
+        "HeaderText": "Info",
+        "Pages": [
+          {
+            "TextLines": [
+              "Welcome to the Rust escalations.",
+              "Discord: https://discord.gg/bHpsxG4V"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      },
+      {
+        "ButtonText": "Rules",
+        "HeaderText": "Rules",
+        "Pages": [
+          {
+            "TextLines": [
+              "We are a community where everyone is welcome, so let's keep it a happy place!",
+              "",
+              "We have some etiquette rules for the Rust server and on discord they go as follow:",
+              "",
+              "Keep it friendly:",
+              "* Play fair!",
+              "* Please watch your language!",
+              "* Personal attacks, threats or abuse will not be tolerated.",
+              "* Do not post NSFW, disturbing or insensitive content out site the 18+ channel there are children on the server.",
+              "",
+              "Respect others:",
+              "* Any bullying, discrimination, trash talking, excessive trolling or harassment isn't tolerated.",
+              "* No toxic behaviour",
+              "* No Disrespecting other players or staff.",
+              "",
+              "Languages:",
+              "* English or Dutch in main chat.",
+              "* Other language is permitted in the team chat"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      },
+      {
+        "ButtonText": "Commands",
+        "HeaderText": "Commands",
+        "Pages": [
+          {
+            "TextLines": [
+              "/remove: Removal tool"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      }
+    ],
+    "ShowInfoOnPlayerInit": false,
+    "ShowInfoOnlyOncePerRuntime": false,
+    "TabToOpenByDefault": 0,
+    "Position": {
+      "MinX": 0.15,
+      "MaxX": 0.9,
+      "MinY": 0.2,
+      "MaxY": 0.9
+    },
+    "BackgroundImage": {
+      "Enabled": false,
+      "Position": {
+        "MinX": 0.0,
+        "MaxX": 1.0,
+        "MinY": 0.0,
+        "MaxY": 1.0
+      },
+      "Url": "http://7-themes.com/data_images/out/35/6889756-black-backgrounds.jpg",
+      "TransparencyInPercent": 100
+    },
+    "ActiveButtonColor": "#FF9966",
+    "InactiveButtonColor": "#3399FF",
+    "CloseButtonColor": "#3399FF",
+    "CloseButtonText": "Close",
+    "NextPageButtonColor": "#3399FF",
+    "NextPageText": "Next",
+    "PrevPageButtonColor": "#3399FF",
+    "PrevPageText": "Previous",
+    "BackgroundColor": "#003366",
+    "HelpButton": {
+      "IsEnabled": false,
+      "Text": "Help",
+      "Position": {
+        "MinX": 0.0,
+        "MaxX": 0.05,
+        "MinY": 0.1,
+        "MaxY": 0.14
+      },
+      "Color": "#FFFFFF",
+      "FontSize": 18
+    },
+    "UpgradedConfig": false
+  }
+}
