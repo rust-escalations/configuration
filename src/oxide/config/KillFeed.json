@@ -4,7 +4,7 @@
     "1.2 Text": {
       "1.2.1 font": "robotocondensed-bold.ttf",
       "1.2.2 outline": false,
-      "1.2.3 font size": 18,
+      "1.2.3 font size": 14,
       "1.2.4 number of characters": 12,
       "1.2.5 remove special characters": true,
       "1.2.6 remove tags": false
@@ -22,7 +22,7 @@
   "2. Kill Feed": {
     "2.1 formatting": "{initiator}§{hitBone}§{distance}§{hitEntity}",
     "2.2 number of entries": 3,
-    "2.3 destroy after": 30.0,
+    "2.3 destroy after": 15,
     "2.4 Dimensions": {
       "2.4.1 width": 0.3,
       "2.4.2 icon half-height": 0.35
@@ -32,12 +32,12 @@
       "2.5.2 y": 0.95
     },
     "2.6 Spacing": {
-      "2.6.1 horizontal": 0.0,
+      "2.6.1 horizontal": 0,
       "2.6.2 vertical": -0.005
     },
     "2.7 Fade": {
-      "2.7.1 in": 0.0,
-      "2.7.2 out": 0.0
+      "2.7.1 in": 0,
+      "2.7.2 out": 0
     },
     "2.8 Colors": {
       "2.8.1 inititator": "#336699",

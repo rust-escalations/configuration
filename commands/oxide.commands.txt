@@ -5,6 +5,8 @@ oxide.grant group admin vanish.allow
 oxide.grant group admin removertool.admin
 oxide.grant group admin adminpanel.autotoggle.admin
 oxide.grant group admin raidablebases.allow
+oxide.grant group admin adminhammer.allow
+oxide.grant group admin dynamicpvp.admin
 
 oxide.grant group default removertool.normal
 oxide.grant group default furnacesplitter.use

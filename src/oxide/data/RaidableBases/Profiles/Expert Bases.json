@@ -257,7 +257,7 @@
   "Divide Loot Into All Containers": true,
   "Drop Container Loot X Seconds After It Is Looted": 60.0,
   "Drop Container Loot Applies Only To Boxes And Cupboards": true,
-  "Create Dome Around Event Using Spheres (0 = disabled, recommended = 5)": 5,
+  "Create Dome Around Event Using Spheres (0 = disabled, recommended = 5)": 0,
   "Empty All Containers Before Spawning Loot": false,
   "Eject Corpses From Enemy Raids (Advanced Users Only)": true,
   "Eject Enemies From Purchased PVE Raids": true,

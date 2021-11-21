@@ -1,0 +1,45 @@
+{
+  "timedEvents": {},
+  "autoEvents": {
+    "TrainTrack": {
+      "Enable Event": true,
+      "Enable PVP Delay": false,
+      "PVP Delay Time": 10,
+      "Enable Domes": false,
+      "Domes Darkness": 8,
+      "Delay In Starting Event": 0,
+      "TruePVE Mapping": "exclude",
+      "Use Blacklist Commands (If false, a whitelist is used)": true,
+      "Command List (If there is a '/' at the front, it is a chat command)": [],
+      "Dynamic PVP Zone Settings": {
+        "Zone Radius": 0,
+        "Zone Size": {
+          "x": 4000,
+          "y": 60,
+          "z": 4000
+        },
+        "Zone Rotation": 0,
+        "Fixed Rotation": false,
+        "Zone Comfort": 0,
+        "Zone Radiation": 0,
+        "Zone Temperature": 0,
+        "Enable Safe Zone": false,
+        "Eject Spawns": "",
+        "Zone Parent ID": "",
+        "Enter Message": "Entering a PVP area (Train track)!",
+        "Leave Message": "Leaving a PVP area (Train track).",
+        "Permission Required To Enter Zone": "",
+        "Extra Zone Flags": []
+      },
+      "Enable Bots (Need BotSpawn Plugin)": false,
+      "BotSpawn Profile Name": "",
+      "Auto Start": true,
+      "Zone ID": "",
+      "Position": {
+        "x": 0,
+        "y": -80,
+        "z": 0
+      }
+    }
+  }
+}
