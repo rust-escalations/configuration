@@ -1,0 +1,26 @@
+[
+  {
+    "shortname": "explosive.timed",
+    "amount": 40,
+    "skin": 0,
+    "amountMin": 20
+  },  
+  {
+    "shortname": "ammo.rocket.basic",
+    "amount": 30,
+    "skin": 0,
+    "amountMin": 10
+  },  
+  {
+    "shortname": "ammo.rifle.explosive",
+    "amount": 1000,
+    "skin": 0,
+    "amountMin": 500
+  },
+  {
+    "shortname": "scrap",
+    "amount": 2000,
+    "skin": 0,
+    "amountMin": 1000
+  }
+]
