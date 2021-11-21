@@ -1,0 +1,20 @@
+oxide.group add admins
+oxide.grant group admins admintoggle.use
+
+oxide.grant group admin vanish.allow
+oxide.grant group admin removertool.admin
+oxide.grant group admin adminpanel.autotoggle.admin
+oxide.grant group admin raidablebases.allow
+
+oxide.grant group default removertool.normal
+oxide.grant group default furnacesplitter.use
+
+oxide.usergroup add 76561199028655329 admins
+oxide.usergroup add 76561198283217896 admins
+oxide.usergroup add 76561197994083400 admins
+ 
+#oxide.show group admins
+#oxide.show user 76561199028655329
+
+#unban 76561199028655329
+#unban 765611982832178963
