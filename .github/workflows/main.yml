@@ -28,7 +28,10 @@ jobs:
       - name: Get rcon
         run: brew install Holek/rcon/rcon
 
+      - name: man page
+        run: man 1 rcon
+
       # Runs a single command using the runners shell
       - name: Run rcon
-        run: rcon -H 81.19.208.81 -p 28016 o.reload
+        run: rcon -H 81.19.208.81 -p 28016 -P 1101b
 
