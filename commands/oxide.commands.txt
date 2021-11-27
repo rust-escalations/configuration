@@ -7,6 +7,11 @@ oxide.grant group admin adminpanel.autotoggle.admin
 oxide.grant group admin raidablebases.allow
 oxide.grant group admin adminhammer.allow
 oxide.grant group admin dynamicpvp.admin
+oxide.grant group admin copypaste.copy
+oxide.grant group admin copypaste.list
+oxide.grant group admin copypaste.paste
+oxide.grant group admin copypaste.pasteback
+oxide.grant group admin copypaste.undo
 
 oxide.grant group default removertool.normal
 oxide.grant group default furnacesplitter.use
@@ -14,6 +19,7 @@ oxide.grant group default furnacesplitter.use
 oxide.usergroup add 76561199028655329 admins
 oxide.usergroup add 76561198283217896 admins
 oxide.usergroup add 76561197994083400 admins
+oxide.usergroup add 76561198008455864 admins
  
 #oxide.show group admins
 #oxide.show user 76561199028655329
