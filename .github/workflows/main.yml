@@ -33,5 +33,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run rcon
-        run: rcon -H 81.19.208.81 -p 28016 -P 1101b
+        run: rcon -d -H 81.19.208.81 -p 28016 -P 1101b
 
