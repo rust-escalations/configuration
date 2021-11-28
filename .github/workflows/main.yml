@@ -35,5 +35,5 @@ jobs:
       - name: Run rcon for server
         run: ./rcon -a 81.19.208.81:28016 -p ${{ secrets.RCON_PASSWORD }} -t web -s "server.readcfg"
       - name: Run rcon for oxide
-        run: ./rcon -a 81.19.208.81:28016 -p ${{ secrets.RCON_PASSWORD }} -t web "o.load *"
+        run: ./rcon -a 81.19.208.81:28016 -p ${{ secrets.RCON_PASSWORD }} -t web "o.reload *"
 
