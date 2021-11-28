@@ -18,20 +18,14 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: macos-latest
+    runs-on: windows-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      - name: Get rcon
-        run: brew install Holek/rcon/rcon
-
-      - name: man page
-        run: man 1 rcon
 
       # Runs a single command using the runners shell
       - name: Run rcon
-        run: rcon -H 81.19.208.81 -p 28016 -P 1101b --debug
+        run: rcon -a 81.19.208.81:28016 -P $RCON_PASSWORD status
 
