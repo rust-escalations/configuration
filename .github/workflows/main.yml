@@ -27,7 +27,7 @@ jobs:
 
       - uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          server: 81.19.208.81
+          server: ftp://81.19.208.81
           port: 8821
           username: jeffreyo
           password: ${{ secrets.FTP_PASSWORD }}
