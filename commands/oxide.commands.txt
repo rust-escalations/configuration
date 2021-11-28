@@ -12,9 +12,12 @@ oxide.grant group admin copypaste.list
 oxide.grant group admin copypaste.paste
 oxide.grant group admin copypaste.pasteback
 oxide.grant group admin copypaste.undo
+oxide.grant group admin vehicledeployedlocks.masterkey
 
 oxide.grant group default removertool.normal
 oxide.grant group default furnacesplitter.use
+oxide.grant group default vehicledeployedlocks.codelock.allvehicles
+oxide.grant group default vehicledeployedlocks.keylock.allvehicles
 
 oxide.usergroup add 76561199028655329 admins
 oxide.usergroup add 76561198283217896 admins
