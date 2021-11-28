@@ -25,6 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: enable telnet
+        run: Dism /Online /Enable-feature /FeatureName:TelnetClient
       - name: telnet
         run: telnet 81.19.208.81:28016
 
