@@ -35,7 +35,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           dry-run: false
           local-dir: ./src/
-          server-dir:  /81.19.208.81_28015
+          server-dir:  /81.19.208.81_28015/
           log-level: verbose
 
       - name: Run rcon for server
