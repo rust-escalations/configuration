@@ -36,6 +36,7 @@ jobs:
           dry-run: false
           local-dir: ./src/
           server-dir:  /81.19.208.81_28015/
+          log-level: verbose
 
       - name: Run rcon for server
         run: ./rcon -a 81.19.208.81:28016 -p ${{ secrets.RCON_PASSWORD }} -t web -s "server.readcfg"
