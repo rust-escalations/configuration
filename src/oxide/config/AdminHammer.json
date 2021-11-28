@@ -7,6 +7,6 @@
   "ShowBoxContents": true,
   "ShowCode": true,
   "ShowSphere": false,
-  "ToolDistance": 200,
+  "ToolDistance": 200.0,
   "ToolUsed": "hammer"
 }

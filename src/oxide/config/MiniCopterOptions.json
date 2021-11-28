@@ -6,7 +6,7 @@
   "Fuel per Second": 0.25,
   "Large Storage Containers": 0,
   "Large Storage Lockable": true,
-  "Large Storage Size (Max 42)": 42,
+  "Large Storage Size (Max 42)": 0,
   "Lift Fraction": 0.25,
   "Light: Add Nightitme Tail Light": true,
   "Light: Add Searchlight to heli": true,

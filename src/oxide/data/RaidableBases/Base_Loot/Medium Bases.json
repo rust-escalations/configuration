@@ -3,24 +3,32 @@
     "shortname": "explosive.timed",
     "amount": 15,
     "skin": 0,
-    "amountMin": 10
-  },  
+    "amountMin": 10,
+    "probability": 1.0,
+    "stacksize": -1
+  },
   {
     "shortname": "ammo.rocket.basic",
     "amount": 10,
     "skin": 0,
-    "amountMin": 5
-  },  
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
+  },
   {
     "shortname": "ammo.rifle.explosive",
     "amount": 200,
     "skin": 0,
-    "amountMin": 100
+    "amountMin": 100,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "scrap",
     "amount": 1000,
     "skin": 0,
-    "amountMin": 500
+    "amountMin": 500,
+    "probability": 1.0,
+    "stacksize": -1
   }
 ]

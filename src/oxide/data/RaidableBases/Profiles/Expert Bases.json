@@ -1,5 +1,16 @@
 {
   "Difficulty (0 = easy, 1 = medium, 2 = hard, 3 = expert, 4 = nightmare)": 3,
+  "Advanced Protection Radius": {
+    "Buyable Events": 50.0,
+    "Maintained Events": 50.0,
+    "Manual Events": 50.0,
+    "Scheduled Events": 50.0
+  },
+  "Entities Not Allowed To Be Picked Up": [
+    "generator.small",
+    "generator.static",
+    "autoturret_deployed"
+  ],
   "Additional Bases For This Difficulty": {
     "raidexpert1": [
       {
@@ -173,19 +184,54 @@
     "Level 2 - Final Death": false
   },
   "NPCs": {
-    "Murderer Items": [
-      "metal.facemask",
-      "metal.plate.torso",
-      "pants",
-      "tactical.gloves",
-      "boots.frog",
-      "tshirt",
-      "machete"
-    ],
-    "Scientist Items": [
-      "hazmatsuit_scientist",
-      "rifle.ak"
-    ],
+    "Spawn Inside Bases": {
+      "Spawn On Floors": false,
+      "Spawn On Beds": false,
+      "Spawn On Rugs": false,
+      "Spawn On Rugs With Skin Only": 1,
+      "Spawn Murderers Outside": true,
+      "Spawn Scientists Outside": true
+    },
+    "Murderer (Items)": {
+      "Helm": [
+        "metal.facemask"
+      ],
+      "Torso": [
+        "metal.plate.torso"
+      ],
+      "Pants": [
+        "pants"
+      ],
+      "Gloves": [
+        "tactical.gloves"
+      ],
+      "Boots": [
+        "boots.frog"
+      ],
+      "Shirt": [
+        "tshirt"
+      ],
+      "Kilts": [
+        "roadsign.kilt"
+      ],
+      "Weapon": [
+        "machete"
+      ]
+    },
+    "Scientist (Items)": {
+      "Helm": [],
+      "Torso": [
+        "hazmatsuit_scientist_peacekeeper"
+      ],
+      "Pants": [],
+      "Gloves": [],
+      "Boots": [],
+      "Shirt": [],
+      "Kilts": [],
+      "Weapon": [
+        "rifle.ak"
+      ]
+    },
     "Murderer Kits": [
       "murderer_kit_1",
       "murderer_kit_2"
@@ -194,29 +240,61 @@
       "scientist_kit_1",
       "scientist_kit_2"
     ],
+    "Murderer Items Dropped On Death": [
+      {
+        "shortname": "ammo.pistol",
+        "amount": 30,
+        "skin": 0,
+        "amountMin": 1,
+        "probability": 1.0,
+        "stacksize": -1
+      }
+    ],
+    "Scientist Items Dropped On Death": [
+      {
+        "shortname": "ammo.rifle",
+        "amount": 30,
+        "skin": 0,
+        "amountMin": 1,
+        "probability": 1.0,
+        "stacksize": -1
+      }
+    ],
     "Random Names": [],
-    "Amount To Spawn": 15,
+    "Enabled": true,
     "Aggression Range": 70.0,
     "Despawn Inventory On Death": true,
-    "Enabled": true,
-    "Health For Murderers (100 min, 5000 max)": 150.0,
-    "Health For Scientists (100 min, 5000 max)": 150.0,
+    "Amount To Spawn": 15,
     "Minimum Amount To Spawn": 10,
-    "Use Dangerous Treasures NPCs": false,
-    "Spawn Murderers And Scientists": true,
-    "Scientist Weapon Accuracy (0 - 100)": 30.0,
-    "Spawn Murderers": false,
     "Spawn Random Amount": false,
+    "Spawn Murderers And Scientists": true,
+    "Spawn Murderers": false,
     "Spawn Scientists Only": false,
-    "Player Traps And Turrets Ignore Npcs": false
+    "Use Dangerous Treasures NPCs": false,
+    "Player Traps And Turrets Ignore Npcs": false,
+    "Scientist Weapon Accuracy (0 - 100)": 30.0,
+    "Health For Murderers (100 min, 5000 max)": 150.0,
+    "Health For Scientists (100 min, 5000 max)": 150.0
   },
   "Rewards": {
+    "Custom Currency": {
+      "Enabled": false,
+      "Item Shortname": "scrap",
+      "Amount": 0,
+      "Skin": 0
+    },
     "Economics Money": 0.0,
-    "ServerRewards Points": 0
+    "ServerRewards Points": 0,
+    "Do Not Reward Buyable Events": false
   },
   "Change Building Material Tier To": {
     "Wooden": false,
     "Stone": false,
+    "Metal": false,
+    "HQM": false
+  },
+  "Change Door Type To": {
+    "Wooden": false,
     "Metal": false,
     "HQM": false
   },
@@ -234,7 +312,21 @@
       "rifle.ak"
     ]
   },
+  "Player Building Restrictions": {
+    "Wooden": false,
+    "Stone": false,
+    "Metal": false,
+    "HQM": false
+  },
+  "Water Settings": {
+    "Allow Bases To Float Above Water": false,
+    "Allow Bases To Spawn On The Seabed": false,
+    "Prevent Bases From Floating Above Water By Also Checking Surrounding Area": false,
+    "Maximum Water Depth Level Used For Float Above Water Option": 1.0
+  },
+  "Spawns Database File (Optional)": "none",
   "Profile Enabled": true,
+  "Maximum Elevation Level": 2.5,
   "Add Code Lock To Unlocked Or KeyLocked Doors": true,
   "Add Code Lock To Tool Cupboards": true,
   "Add Code Lock To Boxes": true,
@@ -242,6 +334,7 @@
   "Allow Duplicate Items": false,
   "Allow Players To Pickup Deployables": false,
   "Allow Players To Deploy A Cupboard": false,
+  "Allow Players To Deploy Barricades": true,
   "Allow PVP": true,
   "Allow Friendly Fire (Teams)": true,
   "Minimum Amount Of Items To Spawn (0 = Use Max Value)": 0,
@@ -252,12 +345,15 @@
   "Block Damage Outside Of The Dome To Bases Inside": false,
   "Block Damage Inside From Npcs To Players Outside": false,
   "Building Blocks Are Immune To Damage": false,
+  "Building Blocks Are Immune To Player Damage (Twig Only)": false,
   "Boxes Are Invulnerable": false,
   "Spawn Silently (No Notifcation, No Dome, No Map Marker)": false,
   "Divide Loot Into All Containers": true,
+  "Drop Tool Cupboard Loot After Raid Is Completed": false,
   "Drop Container Loot X Seconds After It Is Looted": 60.0,
   "Drop Container Loot Applies Only To Boxes And Cupboards": true,
   "Create Dome Around Event Using Spheres (0 = disabled, recommended = 5)": 0,
+  "Enable Stability Foundation Wipe": false,
   "Empty All Containers Before Spawning Loot": false,
   "Eject Corpses From Enemy Raids (Advanced Users Only)": true,
   "Eject Enemies From Purchased PVE Raids": true,
@@ -270,7 +366,6 @@
   "Loot Amount Multiplier": 1.0,
   "Maximum Respawn Npc X Seconds After Death": 60.0,
   "Minimum Respawn Npc X Seconds After Death": 120.0,
-  "Protection Radius": 65.0,
   "Penalize Players On Death In PVE (ZLevels)": false,
   "Penalize Players On Death In PVP (ZLevels)": false,
   "Require Cupboard Access To Loot": false,

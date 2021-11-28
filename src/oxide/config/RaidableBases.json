@@ -184,7 +184,7 @@
       "Minutes Until Despawn After Inactive Resets When Damaged": true,
       "Mounts Can Take Damage From Players": false,
       "Mounts Can Take Damage From SamSites": true,
-      "Player Cupboard Detection Radius": 250,
+      "Player Cupboard Detection Radius": 250.0,
       "Players With PVP Delay Can Damage Anything Inside Zone": false,
       "Players With PVP Delay Can Damage Other Players With PVP Delay Anywhere": false,
       "PVP Delay Between Zone Hopping": 15.0,

@@ -3,787 +3,1048 @@
     "shortname": "bandage",
     "amount": 30,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.shotgun",
     "amount": 20,
     "skin": 0,
-    "amountMin": 4
+    "amountMin": 4,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.shotgun.fire",
     "amount": 20,
     "skin": 0,
-    "amountMin": 4
+    "amountMin": 4,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.shotgun.slug",
     "amount": 20,
     "skin": 0,
-    "amountMin": 4
+    "amountMin": 4,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.rifle",
     "amount": 50,
     "skin": 0,
-    "amountMin": 10
+    "amountMin": 10,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "weapon.mod.small.scope",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.andswitch",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "mask.bandana",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "barricade.woodwire",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "bbq",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "horse.shoes.basic",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "grenade.beancan",
     "amount": 4,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "bed",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.blocker",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "keycard_blue",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "bone.fragments",
     "amount": 500,
     "skin": 0,
-    "amountMin": 10
+    "amountMin": 10,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "hat.boonie",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "shoes.boots",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "bucket.helmet",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "knife.butcher",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "wall.frame.fence",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "wall.frame.fence.gate",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "chainsaw",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "charcoal",
     "amount": 1000,
     "skin": 0,
-    "amountMin": 75
+    "amountMin": 75,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "cloth",
     "amount": 500,
     "skin": 0,
-    "amountMin": 100
+    "amountMin": 100,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "coffeecan.helmet",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "smg.2",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "diving.fins",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "diving.mask",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "diving.tank",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "door.closer",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.doorcontroller",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "shotgun.double",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "fuse",
     "amount": 3,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electrical.branch",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "propanetank",
     "amount": 5,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.rifle.explosive",
     "amount": 25,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "explosives",
     "amount": 5,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "grenade.f1",
     "amount": 4,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "fluid.splitter",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "furnace",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "gunpowder",
     "amount": 400,
     "skin": 0,
-    "amountMin": 25
+    "amountMin": 25,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.handmade.shell",
     "amount": 50,
     "skin": 0,
-    "amountMin": 10
+    "amountMin": 10,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "hatchet",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "hazmatsuit",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.hbhfsensor",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "metal.refined",
     "amount": 75,
     "skin": 0,
-    "amountMin": 10
+    "amountMin": 10,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "hq.metal.ore",
     "amount": 35,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.rifle.hv",
     "amount": 40,
     "skin": 0,
-    "amountMin": 3
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.rifle.incendiary",
     "amount": 40,
     "skin": 0,
-    "amountMin": 3
+    "amountMin": 3,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "jacket",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "jackhammer",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "floor.ladder.hatch",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "largemedkit",
     "amount": 2,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "burlap.gloves",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "lowgradefuel",
     "amount": 106,
     "skin": 0,
-    "amountMin": 4
+    "amountMin": 4,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "pistol.m92",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "syringe.medical",
     "amount": 4,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "metal.fragments",
     "amount": 1000,
     "skin": 0,
-    "amountMin": 10
+    "amountMin": 10,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "metal.ore",
     "amount": 1000,
     "skin": 0,
-    "amountMin": 10
+    "amountMin": 10,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "metalpipe",
     "amount": 10,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "metalspring",
     "amount": 10,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "mushroom",
     "amount": 5,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "paper",
     "amount": 7,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "pickaxe",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.pistol",
     "amount": 100,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "shotgun.pump",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "pumpkin",
     "amount": 5,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "pistol.python",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "research.table",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "pistol.revolver",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "riflebody",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "riot.helmet",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "roadsign.kilt",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "roadsigns",
     "amount": 10,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "horse.armor.roadsign",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "rope",
     "amount": 20,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "shelves",
     "amount": 2,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "explosive.satchel",
     "amount": 20,
     "skin": 0,
-    "amountMin": 2
+    "amountMin": 2,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "scrap",
     "amount": 500,
     "skin": 0,
-    "amountMin": 25
+    "amountMin": 25,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "searchlight",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "semibody",
     "amount": 4,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "pistol.semiauto",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "rifle.semiauto",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "sewingkit",
     "amount": 10,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "sheetmetal",
     "amount": 10,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "door.hinged.metal",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "door.double.hinged.metal",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "guntrap",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "weapon.mod.silencer",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "weapon.mod.simplesight",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.simplelight",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.fuelgenerator.small",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "small.oil.refinery",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "smgbody",
     "amount": 2,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "jacket.snow",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "shotgun.spas12",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.splitter",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "stones",
     "amount": 2000,
     "skin": 0,
-    "amountMin": 250
+    "amountMin": 250,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "sulfur",
     "amount": 500,
     "skin": 0,
-    "amountMin": 50
+    "amountMin": 50,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "sulfur.ore",
     "amount": 500,
     "skin": 0,
-    "amountMin": 50
+    "amountMin": 50,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "supply.signal",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.switch",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "tactical.gloves",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "targeting.computer",
     "amount": 3,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "tarp",
     "amount": 10,
     "skin": 0,
-    "amountMin": 5
+    "amountMin": 5,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "techparts",
     "amount": 6,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "smg.thompson",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "electric.timer",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "weapon.mod.flashlight",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "generator.wind.scrap",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "wood",
     "amount": 3000,
     "skin": 0,
-    "amountMin": 150
+    "amountMin": 150,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "workbench1",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "abovegroundpool",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.nailgun.nails",
     "amount": 64,
     "skin": 0,
-    "amountMin": 32
+    "amountMin": 32,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.pistol.hv",
     "amount": 256,
     "skin": 0,
-    "amountMin": 128
+    "amountMin": 128,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "ammo.snowballgun",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "arrow.fire",
     "amount": 24,
     "skin": 0,
-    "amountMin": 12
+    "amountMin": 12,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "arrow.wooden",
     "amount": 24,
     "skin": 0,
-    "amountMin": 12
+    "amountMin": 12,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "bearmeat.cooked",
     "amount": 8,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "boots.frog",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "bow.hunting",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "box.repair.bench",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
-
   {
     "shortname": "fishtrap.small",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "flamethrower",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "roadsign.jacket",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "rug",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "rug.bear",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "tshirt",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "tshirt.long",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   },
   {
     "shortname": "wood.armor.helmet",
     "amount": 1,
     "skin": 0,
-    "amountMin": 1
+    "amountMin": 1,
+    "probability": 1.0,
+    "stacksize": -1
   }
 ]
