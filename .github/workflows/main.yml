@@ -14,26 +14,33 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  deploy:
     # The type of runner that the job will run on
     runs-on: windows-latest
+    environment: production
+    concurrency: production
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - uses: SamKirkland/FTP-Deploy-Action@4.2.0
+      - name: Uploading (ftp)
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: 81.19.208.81
           port: 8821
+          protocol: ftps
+          security: loose
           username: jeffreyo
           password: ${{ secrets.FTP_PASSWORD }}
-          dry-run: true
-          local-dir: ./src/         
+          dry-run: false
+          local-dir: ./src/
+          server-dir:  /81.19.208.81_28015/
+          log-level: verbose
 
-      - name: Run rcon for server
+      - name: "RCON: server.readcfg"
         run: ./rcon -a 81.19.208.81:28016 -p ${{ secrets.RCON_PASSWORD }} -t web -s "server.readcfg"
-      - name: Run rcon for oxide
+      - name: "RCON: o.reload"
         run: ./rcon -a 81.19.208.81:28016 -p ${{ secrets.RCON_PASSWORD }} -t web "o.reload *"
 
