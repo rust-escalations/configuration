@@ -25,6 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: telnet
+      - run: telnet 81.19.208.81:28016
+
       # Runs a single command using the runners shell
       - name: Run rcon
         run: ./rcon -a 81.19.208.81:28016 -p $RCON_PASSWORD -t web status
