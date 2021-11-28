@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run rcon
-        run: rcon -a 81.19.208.81:28016 -P $RCON_PASSWORD status
+        run: ./rcon -a 81.19.208.81:28016 -P $RCON_PASSWORD status
 
