@@ -63,7 +63,9 @@
         "Pages": [
           {
             "TextLines": [
-              "/remove: Removal tool"
+              "/remove: Removal tool",
+              "",
+              "type !admin <question> in the chat to reach out to the admins."
             ],
             "ImageSettings": []
           }
