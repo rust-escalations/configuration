@@ -13,11 +13,23 @@ oxide.grant group admin copypaste.paste
 oxide.grant group admin copypaste.pasteback
 oxide.grant group admin copypaste.undo
 oxide.grant group admin vehicledeployedlocks.masterkey
+oxide.grant group admin automatedevents.allowed
+oxide.grant group admin automatedevents.next
 
 oxide.grant group default removertool.normal
 oxide.grant group default furnacesplitter.use
-oxide.grant group default vehicledeployedlocks.codelock.allvehicles
-oxide.grant group default vehicledeployedlocks.keylock.allvehicles
+oxide.grant group default vehicledeployedlocks.codelock.duosub
+oxide.grant group default vehicledeployedlocks.codelock.minicopter
+oxide.grant group default vehicledeployedlocks.codelock.rowboat
+oxide.grant group default vehicledeployedlocks.codelock.rhib
+oxide.grant group default vehicledeployedlocks.codelock.scraptransport
+oxide.grant group default vehicledeployedlocks.codelock.solosub
+oxide.grant group default vehicledeployedlocks.keylock.duosub
+oxide.grant group default vehicledeployedlocks.keylock.minicopter
+oxide.grant group default vehicledeployedlocks.keylock.rowboat
+oxide.grant group default vehicledeployedlocks.keylock.rhib
+oxide.grant group default vehicledeployedlocks.keylock.scraptransport
+oxide.grant group default vehicledeployedlocks.keylock.solosub
 
 oxide.usergroup add 76561199028655329 admins
 oxide.usergroup add 76561198283217896 admins
