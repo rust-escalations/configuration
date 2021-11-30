@@ -1,0 +1,19 @@
+{
+    "Allow chat between inmates (when chat is blocked)": true,
+    "Allow players to escape jail": false,
+    "Automatically release prisoners when their sentence has expired": true,
+    "Blacklisted commands for prisoners": [
+      "tp",
+      "event",
+      "tpa",
+      "tpr",
+      "s"
+    ],
+    "Block chat for inmates": true,
+    "Broadcast player imprisonment globally": true,
+    "Disable damage dealt by prisoners": true,
+    "Give prisoners a designated kit": false,
+    "Restrict public access to prison zones": true,
+    "Return prisoners belongings if they escape jail": true,
+    "Return prisoners to the position they were incarcerated at when released": true
+  }

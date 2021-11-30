@@ -15,6 +15,7 @@ oxide.grant group admin copypaste.undo
 oxide.grant group admin vehicledeployedlocks.masterkey
 oxide.grant group admin automatedevents.allowed
 oxide.grant group admin automatedevents.next
+oxide.grant group admin jail.admin
 
 oxide.grant group default removertool.normal
 oxide.grant group default furnacesplitter.use
@@ -30,6 +31,7 @@ oxide.grant group default vehicledeployedlocks.keylock.rowboat
 oxide.grant group default vehicledeployedlocks.keylock.rhib
 oxide.grant group default vehicledeployedlocks.keylock.scraptransport
 oxide.grant group default vehicledeployedlocks.keylock.solosub
+oxide.grant group default jail.canenter
 
 oxide.usergroup add 76561199028655329 admins
 oxide.usergroup add 76561198283217896 admins
