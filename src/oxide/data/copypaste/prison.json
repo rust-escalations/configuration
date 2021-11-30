@@ -1,30 +1,69 @@
 ﻿{
     "default": {
         "position": {
-            "x": "-1702.397",
-            "y": "22.54792",
-            "z": "10.38452"
+            "x": "2710.409",
+            "y": "22.1017",
+            "z": "-1834.595"
         },
-        "rotationdiff": 3.48088026,
-        "rotationy": "22.54792"
+        "rotationdiff": 5.76482248,
+        "rotationy": "22.1017"
     },
     "entities": [
         {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": 2.85107422,
+                "y": 3.15224075,
+                "z": 0.0682373047
+            },
+            "rot": {
+                "x": 1.0332883E-08,
+                "y": 2.323993,
+                "z": -1.88203032E-07
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/wall.frame.cell/wall.frame.cell.prefab",
+            "skinid": 0,
             "flags": {
                 "Reserved1": false,
                 "Reserved2": false
             },
             "pos": {
-                "x": 1.76074219,
-                "y": 1.756115,
-                "z": 4.299347
+                "x": 3.87695313,
+                "y": 0.152240753,
+                "z": 1.16259766
             },
             "rot": {
-                "x": 1.08611673E-07,
-                "y": 5.114368,
-                "z": -3.219731E-07
+                "x": -8.657994E-08,
+                "y": 2.323993,
+                "z": -1.24886157E-07
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/floor.grill/floor.grill.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": false,
+                "Reserved2": false
+            },
+            "pos": {
+                "x": 2.85107422,
+                "y": 3.05223846,
+                "z": 0.0682373047
+            },
+            "rot": {
+                "x": 3.9193246E-08,
+                "y": 5.465585,
+                "z": 1.54998858E-08
             },
             "ownerid": 76561199028655329
         },
@@ -37,170 +76,308 @@
                 "Reserved2": true
             },
             "pos": {
-                "x": 1.76074219,
-                "y": 1.756115,
-                "z": 4.299347
+                "x": 3.87695313,
+                "y": 0.152240753,
+                "z": 1.16259766
             },
             "rot": {
-                "x": 9.17833347E-08,
-                "y": 5.114368,
-                "z": -2.393763E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -0.412719727,
-                "y": 3.35611725,
-                "z": 4.494232
-            },
-            "rot": {
-                "x": -2.61157027E-07,
-                "y": 1.98107576,
-                "z": 4.65866435E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.71948242,
-                "y": 3.35611725,
-                "z": 4.129425
-            },
-            "rot": {
-                "x": -6.49454137E-07,
-                "y": 1.99137688,
-                "z": -2.223939E-08
+                "x": 4.73867026E-08,
+                "y": 5.46558571,
+                "z": 1.09386278E-07
             },
             "ownerid": 76561199028655329
         },
         {
             "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+            "prefabname": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
             "skinid": 0,
             "flags": {
                 "Reserved1": true,
                 "Reserved2": true
             },
             "pos": {
-                "x": -1.5871582,
-                "y": 4.756115,
-                "z": 4.092621
+                "x": 0.662597656,
+                "y": 3.15224075,
+                "z": 2.12023926
             },
             "rot": {
-                "x": 9.17833E-08,
-                "y": 5.11436749,
-                "z": -2.39376362E-07
+                "x": 1.0332819E-08,
+                "y": 2.32399249,
+                "z": -1.88203018E-07
             },
             "ownerid": 76561199028655329
         },
         {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.72753906,
-                "y": 3.35611725,
-                "z": 5.07193
-            },
-            "rot": {
-                "x": 6.404537E-07,
-                "y": 0.412191033,
-                "z": 1.17541795E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+            "prefabname": "assets/prefabs/building/floor.grill/floor.grill.prefab",
             "skinid": 0,
             "flags": {
                 "Reserved1": false,
                 "Reserved2": false
             },
             "pos": {
-                "x": -1.72143555,
-                "y": 3.35611725,
-                "z": 4.12384033
+                "x": 0.662597656,
+                "y": 3.05223846,
+                "z": 2.12023926
             },
             "rot": {
-                "x": 2.72952665E-08,
-                "y": 0.384936452,
-                "z": 6.261693E-07
+                "x": -3.277384E-08,
+                "y": 2.323993,
+                "z": -3.75545483E-07
             },
             "ownerid": 76561199028655329
         },
         {
             "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
             "skinid": 0,
             "flags": {
                 "Reserved1": true,
                 "Reserved2": true
             },
             "pos": {
-                "x": -1.5871582,
-                "y": 3.256115,
-                "z": 4.092621
+                "x": 1.68847656,
+                "y": 0.152240753,
+                "z": 3.21447754
             },
             "rot": {
-                "x": 2.34165256E-07,
-                "y": 5.11436844,
-                "z": -1.04363941E-07
+                "x": 1.63869061E-08,
+                "y": 5.46558571,
+                "z": 1.87772713E-07
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/wall.frame.cell/wall.frame.cell.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": false,
+                "Reserved2": false
+            },
+            "pos": {
+                "x": 1.68847656,
+                "y": 0.152240753,
+                "z": 3.21447754
+            },
+            "rot": {
+                "x": 1.63868989E-08,
+                "y": 5.46558571,
+                "z": 1.87772713E-07
             },
             "ownerid": 76561199028655329
         },
         {
             "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
             "skinid": 0,
             "flags": {
                 "Reserved1": true,
                 "Reserved2": true
             },
             "pos": {
-                "x": -2.96765137,
-                "y": 1.756115,
-                "z": 4.679474
+                "x": 2.85107422,
+                "y": 0.152240753,
+                "z": 0.068359375
             },
             "rot": {
-                "x": 2.80124482E-07,
-                "y": 3.54357171,
-                "z": 1.17901848E-07
+                "x": 8.74227837E-08,
+                "y": 0.753196,
+                "z": -8.742278E-08
             },
             "ownerid": 76561199028655329
         },
         {
             "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
             "skinid": 0,
             "flags": {
                 "Reserved1": true,
                 "Reserved2": true
             },
             "pos": {
-                "x": -1.00024414,
-                "y": 1.756115,
-                "z": 5.473053
+                "x": 0.662597656,
+                "y": 0.152240753,
+                "z": 2.12023926
             },
             "rot": {
-                "x": -1.08611772E-07,
-                "y": 5.11436844,
-                "z": 3.21973118E-07
+                "x": 1.74845567E-07,
+                "y": 0.753196,
+                "z": 7.10542736E-15
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": 3.9453125,
+                "y": 0.152240753,
+                "z": -0.9576416
+            },
+            "rot": {
+                "x": -4.384029E-08,
+                "y": 0.7531961,
+                "z": 1.10855247E-07
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/wall.frame.cell/wall.frame.cell.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": false,
+                "Reserved2": false
+            },
+            "pos": {
+                "x": 3.9453125,
+                "y": 0.152240753,
+                "z": -0.9576416
+            },
+            "rot": {
+                "x": 4.38402949E-08,
+                "y": 3.89478874,
+                "z": -1.10855218E-07
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": 1.89306641,
+                "y": 0.152240753,
+                "z": -3.14624023
+            },
+            "rot": {
+                "x": 0.0,
+                "y": 0.7531962,
+                "z": 0.0
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/wall.frame.cell/wall.frame.cell.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": false,
+                "Reserved2": false
+            },
+            "pos": {
+                "x": 1.89306641,
+                "y": 0.152240753,
+                "z": -3.14624023
+            },
+            "rot": {
+                "x": 0.0,
+                "y": 0.7531962,
+                "z": 0.0
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/floor.grill/floor.grill.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": false,
+                "Reserved2": false
+            },
+            "pos": {
+                "x": 0.7988281,
+                "y": 3.05223846,
+                "z": -2.12023926
+            },
+            "rot": {
+                "x": 0.0,
+                "y": 5.465585,
+                "z": 0.0
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": 0.7988281,
+                "y": 3.15224075,
+                "z": -2.12023926
+            },
+            "rot": {
+                "x": 1.88202989E-07,
+                "y": 3.89478874,
+                "z": 1.0332851E-08
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": 0.7988281,
+                "y": 0.152240753,
+                "z": -2.12023926
+            },
+            "rot": {
+                "x": 0.0,
+                "y": 5.465585,
+                "z": 0.0
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/wall.frame.cell/wall.frame.cell.gate.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": false,
+                "Reserved2": false
+            },
+            "pos": {
+                "x": -0.431640625,
+                "y": 0.152240753,
+                "z": 3.14624023
+            },
+            "rot": {
+                "x": -1.88202989E-07,
+                "y": 0.7531961,
+                "z": -1.033283E-08
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": -0.431640625,
+                "y": 0.152240753,
+                "z": 3.14624023
+            },
+            "rot": {
+                "x": 1.88203018E-07,
+                "y": 3.89478874,
+                "z": 1.03328057E-08
             },
             "ownerid": 76561199028655329
         },
@@ -213,228 +390,14 @@
                 "Reserved2": true
             },
             "pos": {
-                "x": -2.96765137,
-                "y": 1.756115,
-                "z": 4.679474
+                "x": -2.91918945,
+                "y": 3.15224075,
+                "z": 2.393921
             },
             "rot": {
-                "x": 1.179018E-07,
-                "y": 1.972775,
-                "z": -2.801246E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.732544,
-                "y": 1.85611725,
-                "z": 5.04919434
-            },
-            "rot": {
-                "x": -6.587784E-07,
-                "y": 0.417157024,
-                "z": -3.53399628E-05
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.76074219,
-                "y": 0.25611496,
-                "z": 4.299347
-            },
-            "rot": {
-                "x": 7.641731E-09,
-                "y": 5.11436844,
-                "z": 1.73607788E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.76074219,
-                "y": 0.25611496,
-                "z": 4.299347
-            },
-            "rot": {
-                "x": 2.622683E-07,
-                "y": 0.401978642,
-                "z": -8.742284E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -0.5587158,
-                "y": 0.356117249,
-                "z": 4.220459
-            },
-            "rot": {
-                "x": 3.564314E-07,
-                "y": 5.11215162,
-                "z": -3.26838119E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.00024414,
-                "y": 0.25611496,
-                "z": 5.473053
-            },
-            "rot": {
-                "x": -9.178343E-08,
-                "y": 5.11436844,
-                "z": 2.393763E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.96765137,
-                "y": 0.25611496,
-                "z": 4.679474
-            },
-            "rot": {
-                "x": 2.801245E-07,
-                "y": 3.54357171,
-                "z": 1.17901827E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.71875,
-                "y": 0.356117249,
-                "z": 5.11288452
-            },
-            "rot": {
-                "x": -1.57700157E-07,
-                "y": 3.54112554,
-                "z": -8.756345E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -2.609253,
-                "y": 0.356117249,
-                "z": 3.9546814
-            },
-            "rot": {
-                "x": 9.71656036E-08,
-                "y": 1.97853708,
-                "z": 1.98262072E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.5871582,
-                "y": 0.25611496,
-                "z": 4.092621
-            },
-            "rot": {
-                "x": 2.62268372E-07,
-                "y": 0.401979029,
-                "z": 8.74228E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.75219727,
-                "y": 3.35611725,
-                "z": 2.341217
-            },
-            "rot": {
-                "x": -1.44788757E-07,
-                "y": 3.53435946,
-                "z": 7.1116574E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.729004,
-                "y": 1.85611725,
-                "z": 2.29949951
-            },
-            "rot": {
-                "x": -8.786287E-07,
-                "y": 3.54160023,
-                "z": -3.52860479E-05
+                "x": 7.89111141E-08,
+                "y": 3.37118959,
+                "z": 5.15249567E-08
             },
             "ownerid": 76561199028655329
         },
@@ -447,168 +410,14 @@
                 "Reserved2": true
             },
             "pos": {
-                "x": 4.52172852,
-                "y": 1.756115,
-                "z": 3.12564087
+                "x": -2.91918945,
+                "y": 0.152240753,
+                "z": 2.393921
             },
             "rot": {
-                "x": 9.94251437E-08,
-                "y": 5.114368,
-                "z": -6.57685E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 3.3704834,
-                "y": 3.35611725,
-                "z": 2.93057251
-            },
-            "rot": {
-                "x": 1.08815755E-07,
-                "y": 1.9740442,
-                "z": -4.904915E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 3.371582,
-                "y": 3.35611725,
-                "z": 2.95428467
-            },
-            "rot": {
-                "x": 4.908322E-07,
-                "y": 3.53855276,
-                "z": 1.07803373E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.55432129,
-                "y": 1.756115,
-                "z": 2.33206177
-            },
-            "rot": {
-                "x": 1.40608378E-07,
-                "y": 0.40197897,
-                "z": -9.30107E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.16394043,
-                "y": 3.35611725,
-                "z": 1.6159668
-            },
-            "rot": {
-                "x": -6.48430671E-07,
-                "y": 5.122083,
-                "z": -1.69745022E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.17138672,
-                "y": 3.35611725,
-                "z": 1.63000488
-            },
-            "rot": {
-                "x": 3.0330142E-07,
-                "y": 0.426451445,
-                "z": -5.280647E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.064453,
-                "y": 3.35611725,
-                "z": 0.719207764
-            },
-            "rot": {
-                "x": -4.317527E-07,
-                "y": 0.407581985,
-                "z": 4.892943E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 3.93481445,
-                "y": 4.756115,
-                "z": 1.74520874
-            },
-            "rot": {
-                "x": 2.37988065E-08,
-                "y": 0.40197894,
-                "z": -1.16809538E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 2.748413,
-                "y": 3.35611725,
-                "z": 1.29629517
-            },
-            "rot": {
-                "x": -1.274585E-07,
-                "y": 5.12435341,
-                "z": 2.3535128E-07
+                "x": -5.1525E-08,
+                "y": 4.94198656,
+                "z": 7.89110857E-08
             },
             "ownerid": 76561199028655329
         },
@@ -621,1615 +430,14 @@
                 "Reserved2": true
             },
             "pos": {
-                "x": 5.31530762,
-                "y": 1.756115,
-                "z": 1.15835571
+                "x": -2.48388672,
+                "y": 0.152240753,
+                "z": 0.9576416
             },
             "rot": {
-                "x": -2.379887E-08,
-                "y": 0.401979625,
-                "z": 1.16809545E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 3.34790039,
-                "y": 1.756115,
-                "z": 0.3647766
-            },
-            "rot": {
-                "x": 7.11341457E-08,
-                "y": 5.114368,
-                "z": -2.43583344E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 3.93481445,
-                "y": 3.256115,
-                "z": 1.74520874
-            },
-            "rot": {
-                "x": 9.301073E-08,
-                "y": 1.97277534,
-                "z": 1.4060835E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 5.31530762,
-                "y": 1.756115,
-                "z": 1.15835571
-            },
-            "rot": {
-                "x": 1.40062255E-07,
-                "y": 5.114368,
-                "z": 5.89509028E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.09094238,
-                "y": 1.85611725,
-                "z": 0.8377991
-            },
-            "rot": {
-                "x": -3.17223567E-07,
-                "y": 3.556264,
-                "z": -3.52885254E-05
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 2.55432129,
-                "y": 1.756115,
-                "z": 2.33206177
-            },
-            "rot": {
-                "x": 1.40608392E-07,
-                "y": 0.40197894,
-                "z": -9.301071E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -0.206665039,
-                "y": 1.756115,
-                "z": 3.50576782
-            },
-            "rot": {
-                "x": -1.04363956E-07,
-                "y": 3.543572,
-                "z": -2.34165256E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.17382813,
-                "y": 4.756115,
-                "z": 2.91891479
-            },
-            "rot": {
-                "x": -2.39376334E-07,
-                "y": 3.54357147,
-                "z": -9.178333E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 0.586914063,
-                "y": 1.756115,
-                "z": 1.53848267
-            },
-            "rot": {
-                "x": -6.57685E-08,
-                "y": 5.114368,
-                "z": -9.942513E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 0.586914063,
-                "y": 1.756115,
-                "z": 1.53848267
-            },
-            "rot": {
-                "x": -8.641772E-08,
-                "y": 5.114368,
-                "z": -1.03632217E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.38049316,
-                "y": 1.756115,
-                "z": -0.4288025
-            },
-            "rot": {
-                "x": 2.379881E-08,
-                "y": 0.4019787,
-                "z": -1.16809545E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.17382813,
-                "y": 1.756115,
-                "z": 2.91891479
-            },
-            "rot": {
-                "x": -6.57685248E-08,
-                "y": 0.401979148,
-                "z": -9.94251437E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.22680664,
-                "y": 0.356117249,
-                "z": 0.664855957
-            },
-            "rot": {
-                "x": 8.925808E-08,
-                "y": 4.224276,
-                "z": -1.952326E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 0.208251953,
-                "y": 0.356117249,
-                "z": 0.7598572
-            },
-            "rot": {
-                "x": -1.54263461E-07,
-                "y": 3.48310852,
-                "z": -8.306776E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 0.668457031,
-                "y": 0.356117249,
-                "z": -0.128875732
-            },
-            "rot": {
-                "x": 4.318025E-09,
-                "y": 4.392047,
-                "z": -3.400583E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 4.52172852,
-                "y": 0.25611496,
-                "z": 3.12564087
-            },
-            "rot": {
-                "x": 8.259683E-08,
-                "y": 5.114368,
-                "z": 1.68283076E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.919922,
-                "y": 0.356117249,
-                "z": 1.86923218
-            },
-            "rot": {
-                "x": 9.926462E-08,
-                "y": 5.12261152,
-                "z": -1.05742906E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 3.77819824,
-                "y": 0.356117249,
-                "z": 2.7645874
-            },
-            "rot": {
-                "x": -1.82072117E-08,
-                "y": 3.56000733,
-                "z": 6.80566643E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 4.03881836,
-                "y": 0.356117249,
-                "z": 0.7147217
-            },
-            "rot": {
-                "x": 1.8969439E-07,
-                "y": 0.403365463,
-                "z": -1.03231429E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 5.31530762,
-                "y": 0.25611496,
-                "z": 1.15835571
-            },
-            "rot": {
-                "x": -5.895096E-08,
-                "y": 0.401979625,
-                "z": 1.400622E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 3.93481445,
-                "y": 0.25611496,
-                "z": 1.74520874
-            },
-            "rot": {
-                "x": 8.742278E-08,
-                "y": 1.97277534,
-                "z": 8.74227837E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 3.34790039,
-                "y": 0.25611496,
-                "z": 0.3647766
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 5.114368,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 2.89440918,
-                "y": 0.356117249,
-                "z": 1.61816406
-            },
-            "rot": {
-                "x": 1.44451946E-07,
-                "y": 1.9785409,
-                "z": 1.16740452E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 0.586914063,
-                "y": 0.25611496,
-                "z": 1.53848267
-            },
-            "rot": {
-                "x": -9.94251437E-08,
-                "y": 5.114368,
-                "z": 6.57685E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.55432129,
-                "y": 0.25611496,
-                "z": 2.33206177
-            },
-            "rot": {
-                "x": 5.895092E-08,
-                "y": 0.4019789,
-                "z": -1.40062227E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.17382813,
-                "y": 0.25611496,
-                "z": 2.91891479
-            },
-            "rot": {
-                "x": 1.7484561E-07,
-                "y": 0.401979029,
-                "z": 7.10542651E-15
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.38049316,
-                "y": 0.25611496,
-                "z": -0.4288025
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 0.401979566,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 4.14147949,
-                "y": 1.756115,
-                "z": -1.60250854
-            },
-            "rot": {
-                "x": 2.37988331E-08,
-                "y": 0.4019792,
-                "z": -1.16809538E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.76098633,
-                "y": 4.756115,
-                "z": -1.01565552
-            },
-            "rot": {
-                "x": -1.16809552E-07,
-                "y": 5.114368,
-                "z": -2.37988225E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.38049316,
-                "y": 1.756115,
-                "z": -0.4288025
-            },
-            "rot": {
-                "x": 2.37988136E-08,
-                "y": 0.4019788,
-                "z": -1.16809552E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.03894043,
-                "y": 3.35611725,
-                "z": -2.62179565
-            },
-            "rot": {
-                "x": 4.23057628E-07,
-                "y": 1.970591,
-                "z": -7.709249E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.76098633,
-                "y": 1.756115,
-                "z": -1.01565552
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 5.114368,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 0.5004883,
-                "y": 0.356117249,
-                "z": -1.08648682
-            },
-            "rot": {
-                "x": 3.61322776E-08,
-                "y": 4.63290358,
-                "z": -2.54384474E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 2.409546,
-                "y": 3.35611725,
-                "z": -3.14718628
-            },
-            "rot": {
-                "x": 2.19765752E-07,
-                "y": 3.54137659,
-                "z": 1.02094225E-06
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 2.36169434,
-                "y": 1.85611725,
-                "z": -3.225006
-            },
-            "rot": {
-                "x": -7.092681E-07,
-                "y": 3.54998612,
-                "z": -3.51022354E-05
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.17407227,
-                "y": 1.756115,
-                "z": -2.39608765
-            },
-            "rot": {
-                "x": -6.9589376E-08,
-                "y": 1.97277558,
-                "z": -1.86229E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.07092285,
-                "y": 3.35611725,
-                "z": -2.529419
-            },
-            "rot": {
-                "x": -6.94904543E-07,
-                "y": 0.3872444,
-                "z": -3.823705E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 0.206665039,
-                "y": 1.756115,
-                "z": -3.18966675
-            },
-            "rot": {
-                "x": -4.54130458E-08,
-                "y": 0.4019792,
-                "z": -3.74227483E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.81799316,
-                "y": 3.35611725,
-                "z": -3.85821533
-            },
-            "rot": {
-                "x": -8.828296E-07,
-                "y": 5.12703228,
-                "z": -6.888698E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.82336426,
-                "y": 3.35611725,
-                "z": -3.8296814
-            },
-            "rot": {
-                "x": 1.07757742E-07,
-                "y": 0.3999917,
-                "z": -8.13047848E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.73059082,
-                "y": 3.35611725,
-                "z": -4.757721
-            },
-            "rot": {
-                "x": -5.386358E-07,
-                "y": 0.389523327,
-                "z": -1.80677972E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 0.415039063,
-                "y": 3.35611725,
-                "z": -4.181671
-            },
-            "rot": {
-                "x": -4.23823138E-07,
-                "y": 5.11472559,
-                "z": 4.33212847E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.5871582,
-                "y": 4.756115,
-                "z": -3.77651978
-            },
-            "rot": {
-                "x": -1.16809574E-07,
-                "y": 5.114368,
-                "z": -2.379883E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.96765137,
-                "y": 1.756115,
-                "z": -4.363373
-            },
-            "rot": {
-                "x": 2.379883E-08,
-                "y": 0.4019791,
-                "z": -1.16809545E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.00024414,
-                "y": 1.756115,
-                "z": -5.156952
-            },
-            "rot": {
-                "x": 1.23895234E-07,
-                "y": 1.972776,
-                "z": 2.52425E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.5871582,
-                "y": 3.256115,
-                "z": -3.77651978
-            },
-            "rot": {
-                "x": 3.742275E-07,
-                "y": 1.97277546,
-                "z": -4.54130458E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.96765137,
-                "y": 1.756115,
-                "z": -4.363373
-            },
-            "rot": {
-                "x": -1.16809559E-07,
-                "y": 5.11436749,
-                "z": -2.37987869E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.71740723,
-                "y": 1.85611725,
-                "z": -4.711975
-            },
-            "rot": {
-                "x": -7.092681E-07,
-                "y": 3.54998612,
-                "z": -3.51022354E-05
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 4.14147949,
-                "y": 0.25611496,
-                "z": -1.60250854
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 0.4019792,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.76098633,
-                "y": 0.25611496,
-                "z": -1.01565552
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 5.114368,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 2.5994873,
-                "y": 0.356117249,
-                "z": -3.64816284
-            },
-            "rot": {
-                "x": -3.08630348E-07,
-                "y": 1.97342789,
-                "z": -5.89965765E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.17407227,
-                "y": 0.25611496,
-                "z": -2.39608765
-            },
-            "rot": {
-                "x": -1.03246045E-07,
-                "y": 5.114368,
-                "z": -2.10353921E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 2.96765137,
-                "y": 0.25611496,
-                "z": -4.363373
-            },
-            "rot": {
-                "x": 2.3798826E-08,
-                "y": 0.401979119,
-                "z": -1.16809545E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.699707,
-                "y": 0.356117249,
-                "z": -4.793274
-            },
-            "rot": {
-                "x": -6.519042E-08,
-                "y": 3.538135,
-                "z": -8.669903E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 1.45178223,
-                "y": 0.356117249,
-                "z": -2.75244141
-            },
-            "rot": {
-                "x": -3.55148728E-07,
-                "y": 0.4115925,
-                "z": 6.86934953E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 0.206665039,
-                "y": 0.25611496,
-                "z": -3.18966675
-            },
-            "rot": {
-                "x": -2.37988367E-08,
-                "y": 0.401979029,
-                "z": 1.16809552E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.5871582,
-                "y": 0.25611496,
-                "z": -3.77651978
-            },
-            "rot": {
-                "x": 8.742279E-08,
-                "y": 3.54357171,
-                "z": -8.742276E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 1.00024414,
-                "y": 0.25611496,
-                "z": -5.156952
-            },
-            "rot": {
-                "x": 8.64176855E-08,
-                "y": 1.972776,
-                "z": 1.03632239E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 0.54296875,
-                "y": 0.356117249,
-                "z": -3.89819336
-            },
-            "rot": {
-                "x": -9.89962246E-08,
-                "y": 5.1175313,
-                "z": 1.05566542E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -0.206665039,
-                "y": 1.756115,
-                "z": 3.50576782
-            },
-            "rot": {
-                "x": -1.04363956E-07,
-                "y": 3.543572,
-                "z": -2.34165256E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.00146484,
-                "y": 3.35611725,
-                "z": 2.91870117
-            },
-            "rot": {
-                "x": 2.41557046E-07,
-                "y": 5.113875,
-                "z": -7.215822E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.04748535,
-                "y": 3.35611725,
-                "z": 2.84094238
-            },
-            "rot": {
-                "x": 7.98804649E-07,
-                "y": 0.409881383,
-                "z": 2.81663148E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -2.37463379,
-                "y": 3.35611725,
-                "z": 3.449524
-            },
-            "rot": {
-                "x": -6.985941E-08,
-                "y": 3.56404614,
-                "z": -8.624802E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -4.14147949,
-                "y": 1.756115,
-                "z": 1.91860962
-            },
-            "rot": {
-                "x": -1.04363984E-07,
-                "y": 3.54357219,
-                "z": -2.34165256E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.17407227,
-                "y": 1.756115,
-                "z": 2.71218872
-            },
-            "rot": {
-                "x": 1.08611751E-07,
-                "y": 5.11436844,
-                "z": -3.21973118E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -0.206665039,
-                "y": 0.25611496,
-                "z": 3.50576782
-            },
-            "rot": {
-                "x": -2.80124567E-07,
-                "y": 3.54357171,
-                "z": -1.17901848E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.44067383,
-                "y": 0.356117249,
-                "z": 3.06088257
-            },
-            "rot": {
-                "x": 4.08056877E-07,
-                "y": 0.3999478,
-                "z": 9.154019E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -0.499023438,
-                "y": 0.356117249,
-                "z": 1.39910889
-            },
-            "rot": {
-                "x": -2.766361E-08,
-                "y": 5.121168,
-                "z": -9.253213E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -2.38684082,
-                "y": 1.85611725,
-                "z": 3.53619385
-            },
-            "rot": {
-                "x": -6.036498E-07,
-                "y": 0.415055245,
-                "z": -3.519804E-05
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -4.14147949,
-                "y": 0.25611496,
-                "z": 1.91860962
-            },
-            "rot": {
-                "x": 1.74668088E-07,
-                "y": 3.54357219,
-                "z": 1.876599E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.17407227,
-                "y": 0.25611496,
-                "z": 2.71218872
-            },
-            "rot": {
-                "x": -1.743802E-07,
-                "y": 5.114368,
-                "z": 2.22548E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.38049316,
-                "y": 1.756115,
-                "z": 0.744903564
-            },
-            "rot": {
-                "x": 5.89509774E-08,
-                "y": 3.54357219,
-                "z": -1.400622E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -0.586914063,
-                "y": 1.756115,
-                "z": -1.22238159
-            },
-            "rot": {
-                "x": -1.7283547E-07,
-                "y": 1.97277534,
-                "z": -2.07264421E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 0.0,
-                "y": 4.756115,
-                "z": 0.158050537
-            },
-            "rot": {
-                "x": -2.393763E-07,
-                "y": 3.543572,
-                "z": -9.178342E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.38049316,
-                "y": 1.756115,
-                "z": 0.744903564
-            },
-            "rot": {
-                "x": 5.89509774E-08,
-                "y": 3.54357219,
-                "z": -1.400622E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -0.7474365,
-                "y": 0.356117249,
-                "z": 0.480987549
-            },
-            "rot": {
-                "x": -1.35588351E-07,
-                "y": 3.94606519,
-                "z": -7.756606E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.23474121,
-                "y": 0.356117249,
-                "z": -0.336883545
-            },
-            "rot": {
-                "x": 2.08954546E-07,
-                "y": 0.879888,
-                "z": 1.1216661E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
-            "skinid": 2457229995,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -0.305419922,
-                "y": 0.356117249,
-                "z": -0.5527954
-            },
-            "rot": {
-                "x": -3.24887623E-07,
-                "y": 3.42872787,
-                "z": -9.711882E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.76098633,
-                "y": 1.756115,
-                "z": 1.33175659
-            },
-            "rot": {
-                "x": -4.7051536E-08,
-                "y": 5.11436844,
-                "z": 8.165744E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.76098633,
-                "y": 4.756115,
-                "z": 1.33175659
-            },
-            "rot": {
-                "x": -2.34165256E-07,
-                "y": 1.97277582,
-                "z": 1.04363941E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -2.71606445,
-                "y": 3.35611725,
-                "z": -0.988311768
-            },
-            "rot": {
-                "x": 1.13574558E-07,
-                "y": 1.99631357,
-                "z": 5.369321E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -3.34790039,
-                "y": 1.756115,
-                "z": -0.0486755371
-            },
-            "rot": {
-                "x": -1.07066882E-07,
-                "y": 1.97277629,
-                "z": -1.07839334E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -4.05786133,
-                "y": 3.35611725,
-                "z": -0.399902344
-            },
-            "rot": {
-                "x": 4.910863E-07,
-                "y": 0.406664252,
-                "z": -1.89051292E-07
+                "x": 1.05688784E-07,
+                "y": 0.7531965,
+                "z": 1.37941811E-07
             },
             "ownerid": 76561199028655329
         },
@@ -2241,703 +449,53 @@
                 "Reserved2": false
             },
             "pos": {
-                "x": -3.90686035,
-                "y": 1.85611725,
-                "z": 0.7729492
+                "x": -3.041748,
+                "y": 0.252243042,
+                "z": 1.49169922
             },
             "rot": {
-                "x": 4.4451113E-08,
-                "y": 0.409098983,
-                "z": 5.98388738E-07
+                "x": 1.33419249E-07,
+                "y": 4.41629648,
+                "z": -2.35810575E-07
             },
             "ownerid": 76561199028655329
         },
         {
             "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+            "prefabname": "assets/prefabs/building core/wall.doorway/wall.doorway.prefab",
             "skinid": 0,
             "flags": {
                 "Reserved1": true,
                 "Reserved2": true
             },
             "pos": {
-                "x": -5.31530762,
-                "y": 1.756115,
-                "z": -0.842254639
+                "x": -3.94506836,
+                "y": 0.152240753,
+                "z": 1.29968262
             },
             "rot": {
-                "x": 6.92118363E-08,
-                "y": 3.54357219,
-                "z": 2.574179E-07
+                "x": -2.00925655E-07,
+                "y": 2.84759164,
+                "z": 2.70768766E-07
             },
             "ownerid": 76561199028655329
         },
         {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
+            "prefabname": "assets/prefabs/building/door.hinged/door.hinged.metal.prefab",
+            "skinid": 948930384,
             "flags": {
                 "Reserved1": false,
                 "Reserved2": false
             },
             "pos": {
-                "x": -3.9864502,
-                "y": 1.85611725,
-                "z": -0.5881958
+                "x": -3.94506836,
+                "y": 0.152240753,
+                "z": 1.29968262
             },
             "rot": {
-                "x": -4.147355E-07,
-                "y": 0.416368544,
-                "z": -3.54070653E-05
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": 0.0,
-                "y": 0.25611496,
-                "z": 0.158050537
-            },
-            "rot": {
-                "x": 8.74227837E-08,
-                "y": 5.114368,
-                "z": -8.742278E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.38049316,
-                "y": 0.25611496,
-                "z": 0.744903564
-            },
-            "rot": {
-                "x": 8.165744E-08,
-                "y": 3.54357219,
-                "z": 4.70515218E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.76098633,
-                "y": 0.25611496,
-                "z": 1.33175659
-            },
-            "rot": {
-                "x": 1.74845567E-07,
-                "y": 5.114368,
-                "z": -1.74845553E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -4.043457,
-                "y": 0.356117249,
-                "z": -0.4096985
-            },
-            "rot": {
-                "x": -5.174841E-08,
-                "y": 0.4178772,
-                "z": 2.61734925E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -3.34790039,
-                "y": 0.25611496,
-                "z": -0.0486755371
-            },
-            "rot": {
-                "x": -2.81447115E-07,
-                "y": 1.97277534,
-                "z": 1.147087E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -5.31530762,
-                "y": 0.25611496,
-                "z": -0.842254639
-            },
-            "rot": {
-                "x": 6.92118363E-08,
-                "y": 3.54357219,
-                "z": 2.57417867E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.17382813,
-                "y": 4.756115,
-                "z": -2.60281372
-            },
-            "rot": {
-                "x": 2.98275353E-07,
-                "y": 1.972775,
-                "z": -1.97305624E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -2.55432129,
-                "y": 1.756115,
-                "z": -2.01596069
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 3.54357147,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": 0.206665039,
-                "y": 1.756115,
-                "z": -3.18966675
-            },
-            "rot": {
-                "x": -4.541303E-08,
-                "y": 0.4019792,
-                "z": -3.74227483E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.17382813,
-                "y": 1.756115,
-                "z": -2.60281372
-            },
-            "rot": {
-                "x": 3.36566224E-08,
-                "y": 3.54357147,
-                "z": -1.65193669E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -0.586914063,
-                "y": 1.756115,
-                "z": -1.22238159
-            },
-            "rot": {
-                "x": -1.7283547E-07,
-                "y": 1.97277534,
-                "z": -2.072644E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.57910156,
-                "y": 3.256115,
-                "z": -5.473053
-            },
-            "rot": {
-                "x": 1.996339E-07,
-                "y": 0.925578237,
-                "z": -3.33371617E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
-            "skinid": 2354715907,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -1.76074219,
-                "y": 1.756115,
-                "z": -3.98324585
-            },
-            "rot": {
-                "x": 1.57551852E-07,
-                "y": 1.972775,
-                "z": -1.399512E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.95959473,
-                "y": 3.256115,
-                "z": -4.8862
-            },
-            "rot": {
-                "x": 8.380823E-08,
-                "y": 1.44917631,
-                "z": -9.46752E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.76074219,
-                "y": 1.756115,
-                "z": -3.98324585
-            },
-            "rot": {
-                "x": 1.57551852E-07,
-                "y": 1.972775,
-                "z": -1.39951226E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.57910156,
-                "y": 0.25611496,
-                "z": -5.473053
-            },
-            "rot": {
-                "x": 1.99634E-07,
-                "y": 0.925578237,
-                "z": -3.3337156E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -4.142212,
-                "y": 3.35611725,
-                "z": -1.33743286
-            },
-            "rot": {
-                "x": -4.624224E-07,
-                "y": 1.97747362,
-                "z": -3.88191381E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -3.93481445,
-                "y": 3.256115,
-                "z": -1.42910767
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 5.11436749,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -4.13317871,
-                "y": 3.35611725,
-                "z": -1.3258667
-            },
-            "rot": {
-                "x": -7.51649338E-08,
-                "y": 0.3710678,
-                "z": 3.934364E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -3.3125,
-                "y": 3.35611725,
-                "z": -2.53778076
-            },
-            "rot": {
-                "x": 6.45870557E-08,
-                "y": 5.143965,
-                "z": -7.58495162E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -3.334961,
-                "y": 3.35611725,
-                "z": -2.56729126
-            },
-            "rot": {
-                "x": 7.640135E-07,
-                "y": 0.375053734,
-                "z": 2.718808E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor/floor.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -3.93481445,
-                "y": 4.756115,
-                "z": -1.42910767
-            },
-            "rot": {
-                "x": -1.97305582E-07,
-                "y": 0.401979029,
-                "z": -2.982754E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -4.729248,
-                "y": 3.35611725,
-                "z": -2.05847168
-            },
-            "rot": {
-                "x": -2.05405243E-07,
-                "y": 3.550196,
-                "z": -6.532583E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.55432129,
-                "y": 1.756115,
-                "z": -2.01596069
-            },
-            "rot": {
-                "x": 0.0,
-                "y": 3.54357147,
-                "z": 0.0
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
-            "flags": {
-                "Reserved1": false,
-                "Reserved2": false
-            },
-            "pos": {
-                "x": -4.6105957,
-                "y": 1.85611725,
-                "z": -1.9883728
-            },
-            "rot": {
-                "x": -4.40625627E-07,
-                "y": 0.414287418,
-                "z": -3.53129944E-05
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -5.31530762,
-                "y": 1.756115,
-                "z": -0.842254639
-            },
-            "rot": {
-                "x": 2.57417923E-07,
-                "y": 1.97277546,
-                "z": -6.92119144E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -4.52172852,
-                "y": 1.756115,
-                "z": -2.80953979
-            },
-            "rot": {
-                "x": 2.982754E-07,
-                "y": 1.97277534,
-                "z": -1.97305525E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.95959473,
-                "y": 0.25611496,
-                "z": -4.8862
-            },
-            "rot": {
-                "x": 9.467519E-08,
-                "y": 3.019973,
-                "z": 8.380824E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall/wall.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.95959473,
-                "y": 3.256115,
-                "z": -4.8862
-            },
-            "rot": {
-                "x": 1.1898895E-07,
-                "y": 3.019973,
-                "z": -7.24462934E-09
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -2.55432129,
-                "y": 0.25611496,
-                "z": -2.01596069
-            },
-            "rot": {
-                "x": -1.04364005E-07,
-                "y": 3.54357147,
-                "z": -2.34165228E-07
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.17382813,
-                "y": 0.25611496,
-                "z": -2.60281372
-            },
-            "rot": {
-                "x": 1.74845567E-07,
-                "y": 5.114368,
-                "z": -2.131628E-14
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -0.586914063,
-                "y": 0.25611496,
-                "z": -1.22238159
-            },
-            "rot": {
-                "x": -1.65193654E-07,
-                "y": 1.97277534,
-                "z": -3.365663E-08
-            },
-            "ownerid": 76561199028655329
-        },
-        {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
-            "skinid": 0,
-            "flags": {
-                "Reserved1": true,
-                "Reserved2": true
-            },
-            "pos": {
-                "x": -1.76074219,
-                "y": 0.25611496,
-                "z": -3.98324585
-            },
-            "rot": {
-                "x": 1.6519364E-07,
-                "y": 1.97277534,
-                "z": 3.365662E-08
+                "x": -2.00925626E-07,
+                "y": 2.8475914,
+                "z": 2.707688E-07
             },
             "ownerid": 76561199028655329
         },
@@ -2950,71 +508,131 @@
                 "Reserved2": true
             },
             "pos": {
-                "x": -1.76074219,
-                "y": 0.25611496,
-                "z": -3.98324585
+                "x": -2.48388672,
+                "y": 0.152240753,
+                "z": 0.9576416
             },
             "rot": {
-                "x": 8.74226558E-08,
-                "y": 3.54357123,
-                "z": -2.62268316E-07
+                "x": 1.748455E-07,
+                "y": 5.46558475,
+                "z": -1.7484561E-07
             },
             "ownerid": 76561199028655329
         },
         {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
+            "prefabname": "assets/prefabs/building/floor.grill/floor.grill.prefab",
+            "skinid": 0,
             "flags": {
                 "Reserved1": false,
                 "Reserved2": false
             },
             "pos": {
-                "x": -2.88842773,
-                "y": 0.356117249,
-                "z": -1.28674316
+                "x": -1.38964844,
+                "y": 3.05223846,
+                "z": -0.068359375
             },
             "rot": {
-                "x": -4.967543E-07,
-                "y": 1.980504,
-                "z": 1.14449968E-07
+                "x": 4.56125662E-08,
+                "y": 2.32399225,
+                "z": -3.44545754E-07
             },
             "ownerid": 76561199028655329
         },
         {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": -1.38964844,
+                "y": 3.15224075,
+                "z": -0.068359375
+            },
+            "rot": {
+                "x": -1.03328333E-08,
+                "y": 5.465585,
+                "z": 1.88203018E-07
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": -0.227050781,
+                "y": 0.152240753,
+                "z": -3.21447754
+            },
+            "rot": {
+                "x": 0.0,
+                "y": 2.32399225,
+                "z": 0.0
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/wall.frame.cell/wall.frame.cell.prefab",
+            "skinid": 0,
             "flags": {
                 "Reserved1": false,
                 "Reserved2": false
             },
             "pos": {
-                "x": -3.78234863,
-                "y": 0.356117249,
-                "z": -2.42825317
+                "x": -0.227050781,
+                "y": 0.152240753,
+                "z": -3.21447754
             },
             "rot": {
-                "x": -2.01890259E-07,
-                "y": 3.56827474,
-                "z": -2.44399558E-07
+                "x": 0.0,
+                "y": 2.32399225,
+                "z": 0.0
             },
             "ownerid": 76561199028655329
         },
         {
-            "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
-            "skinid": 2569839654,
+            "grade": 2,
+            "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+            "skinid": 0,
+            "flags": {
+                "Reserved1": true,
+                "Reserved2": true
+            },
+            "pos": {
+                "x": -2.41552734,
+                "y": 0.152240753,
+                "z": -1.16259766
+            },
+            "rot": {
+                "x": 7.019302E-08,
+                "y": 2.32399249,
+                "z": -6.28866061E-08
+            },
+            "ownerid": 76561199028655329
+        },
+        {
+            "prefabname": "assets/prefabs/building/wall.frame.cell/wall.frame.cell.prefab",
+            "skinid": 0,
             "flags": {
                 "Reserved1": false,
                 "Reserved2": false
             },
             "pos": {
-                "x": -4.953003,
-                "y": 0.356117249,
-                "z": -1.5640564
+                "x": -2.41552734,
+                "y": 0.152240753,
+                "z": -1.16259766
             },
             "rot": {
-                "x": 1.85470057E-08,
-                "y": 5.11619,
-                "z": -2.253603E-08
+                "x": -7.019302E-08,
+                "y": 5.465585,
+                "z": 6.288661E-08
             },
             "ownerid": 76561199028655329
         },
@@ -3027,34 +645,33 @@
                 "Reserved2": true
             },
             "pos": {
-                "x": -3.93481445,
-                "y": 0.25611496,
-                "z": -1.42910767
+                "x": -1.38964844,
+                "y": 0.152240753,
+                "z": -0.068359375
             },
             "rot": {
-                "x": 2.62268344E-07,
-                "y": 5.114368,
+                "x": 8.742277E-08,
+                "y": 5.465585,
                 "z": -8.74227837E-08
             },
             "ownerid": 76561199028655329
         },
         {
-            "grade": 2,
-            "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+            "prefabname": "assets/prefabs/deployable/signs/sign.medium.wood.prefab",
             "skinid": 0,
             "flags": {
-                "Reserved1": true,
-                "Reserved2": true
+                "Reserved1": false,
+                "Reserved2": false
             },
             "pos": {
-                "x": -4.52172852,
-                "y": 0.25611496,
-                "z": -2.80953979
+                "x": -2.94677734,
+                "y": 1.65888214,
+                "z": 2.55444336
             },
             "rot": {
-                "x": 2.81447115E-07,
-                "y": 1.97277534,
-                "z": -1.14708726E-07
+                "x": -1.28584361E-07,
+                "y": 0.229597166,
+                "z": 6.28293753
             },
             "ownerid": 76561199028655329
         }
