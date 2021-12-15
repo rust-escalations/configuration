@@ -91,10 +91,10 @@
     "BackgroundImage": {
       "Enabled": false,
       "Position": {
-        "MinX": 0.0,
-        "MaxX": 1.0,
-        "MinY": 0.0,
-        "MaxY": 1.0
+        "MinX": 0,
+        "MaxX": 1,
+        "MinY": 0,
+        "MaxY": 1
       },
       "Url": "http://7-themes.com/data_images/out/35/6889756-black-backgrounds.jpg",
       "TransparencyInPercent": 100
@@ -112,7 +112,7 @@
       "IsEnabled": false,
       "Text": "Help",
       "Position": {
-        "MinX": 0.0,
+        "MinX": 0,
         "MaxX": 0.05,
         "MinY": 0.1,
         "MaxY": 0.14

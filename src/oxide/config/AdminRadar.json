@@ -1,5 +1,6 @@
 {
   "Additional Tracking": {
+    "Backpacks Plugin": false,
     "Boats": false,
     "Bradley APC": true,
     "CargoPlanes": false,
@@ -57,19 +58,19 @@
     "On": "Radar turned on."
   },
   "Drawing Distances": {
-    "Airdrop Crates": 400.0,
+    "Airdrop Crates": 400,
     "Animals": 200,
-    "Boats": 150.0,
+    "Boats": 150,
     "Boxes": 100,
-    "Cars": 500.0,
+    "Cars": 500,
     "CCTV": 500,
     "Collectibles": 100,
     "Loot Containers": 150,
-    "MiniCopter": 200.0,
+    "MiniCopter": 200,
     "NPC Players": 300,
     "Player Corpses": 200,
     "Players": 500,
-    "Radar Drops Command": 150.0,
+    "Radar Drops Command": 150,
     "Resources (Ore)": 200,
     "Ridable Horses": 250,
     "Sleeping Bags": 250,
@@ -97,9 +98,9 @@
         "4": "#FFFF00"
       }
     ],
-    "Height Offset [0.0 = disabled]": 40.0,
+    "Height Offset [0.0 = disabled]": 40,
     "Limit": 4,
-    "Range": 50.0,
+    "Range": 50,
     "Use Group Colors Configuration": true
   },
   "GUI": {
@@ -149,8 +150,8 @@
     "Chat Command": "radar",
     "Deactivate Radar After X Minutes": 0,
     "Deactivate Radar After X Seconds Inactive": 300,
-    "Default Distance": 500.0,
-    "Default Refresh Time": 5.0,
+    "Default Distance": 500,
+    "Default Refresh Time": 5,
     "Dropped Item Exceptions": [
       "bottle",
       "planner",
@@ -165,7 +166,7 @@
     "Player Name Text Size": 14,
     "Restrict Access To Auth Level": 1,
     "Restrict Access To Steam64 IDs": [],
-    "Re-use Cooldown, Seconds": 0.0,
+    "Re-use Cooldown, Seconds": 0,
     "Second Command": "radar",
     "Show Average Ping Every X Seconds [0 = disabled]": 0,
     "Show Radar Activated/Deactivated Messages": true,
@@ -173,7 +174,7 @@
     "User Interface Enabled": true
   },
   "Voice Detection": {
-    "Detection Radius": 30.0,
+    "Detection Radius": 30,
     "Enabled": true,
     "Timeout After X Seconds": 3
   },

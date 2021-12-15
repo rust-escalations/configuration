@@ -7,7 +7,7 @@
     "Check radius from each entity (true/false)": true,
     "Share (true/false)": false,
     "Tree (true/false)": false,
-    "Default radius to look for entities from block": 3.0
+    "Default radius to look for entities from block": 3
   },
   "Paste Options": {
     "Auth (true/false)": false,

@@ -16,6 +16,6 @@
   "Restore Defaults": true,
   "Roll Torque Scale": 200,
   "Seconds to pause flyhack when dismount from heli.": 1,
-  "Storage Containers": 0,
+  "Storage Containers": 1,
   "Yaw Torque Scale": 400
 }
