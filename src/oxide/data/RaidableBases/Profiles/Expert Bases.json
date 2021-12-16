@@ -302,7 +302,7 @@
     "Aim Cone": 5.0,
     "Minimum Damage Modifier": 1.0,
     "Maximum Damage Modifier": 1.0,
-    "Start Health": 1000.0,
+    "Start Health": 500.0,
     "Sight Range": 30.0,
     "Double Sight Range When Shot": false,
     "Set Hostile (False = Do Not Set Any Mode)": true,

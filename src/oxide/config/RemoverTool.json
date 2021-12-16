@@ -2,7 +2,7 @@
   "Settings": {
     "Enable Debug Mode": false,
     "Log Debug To File": false,
-    "Use Teams": false,
+    "Use Teams": true,
     "Use Clans": true,
     "Use Friends": true,
     "Use Entity Owners": true,
@@ -18,7 +18,7 @@
     "RemoveType - Normal - Cooldown - Exclude admins": true,
     "RemoveType - Normal - Check stash under the foundation": false,
     "RemoveType - Normal - Entity Spawned Time Limit - Enabled": false,
-    "RemoveType - Normal - Entity Spawned Time Limit - Cannot be removed when entity spawned time more than it": 300.0,
+    "RemoveType - Normal - Entity Spawned Time Limit - Cannot be removed when entity spawned time more than it": 300,
     "Default Entity Settings (When automatically adding new entities to 'Other Entity Settings')": {
       "Default Remove Allowed": true
     }
@@ -35,7 +35,7 @@
     "Enabled": false,
     "Exclude Quarries": true,
     "Exclude Building Blocks": true,
-    "Percentage (Can be removed when (health / max health * 100) is not less than it)": 90.0
+    "Percentage (Can be removed when (health / max health * 100) is not less than it)": 90
   },
   "Chat Settings": {
     "Chat Command": "remove",
@@ -45,8 +45,8 @@
   "Permission Settings (Just for normal type)": {
     "removertool.normal": {
       "Priority": 0,
-      "Distance": 3.0,
-      "Cooldown": 0.0,
+      "Distance": 3,
+      "Cooldown": 0,
       "Max Time": 300,
       "Remove Interval (Min = 0.2)": 0.8,
       "Max Removable Objects (0 = Unlimit)": 50,
@@ -58,7 +58,7 @@
   "Remove Type Settings": {
     "Normal": {
       "Display Name": "Normal",
-      "Distance": 3.0,
+      "Distance": 3,
       "Default Time": 60,
       "Max Time": 300,
       "Gibs": true,
@@ -66,7 +66,7 @@
     },
     "Structure": {
       "Display Name": "Structure",
-      "Distance": 100.0,
+      "Distance": 100,
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": false,
@@ -74,7 +74,7 @@
     },
     "All": {
       "Display Name": "All",
-      "Distance": 50.0,
+      "Distance": 50,
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": false,
@@ -82,7 +82,7 @@
     },
     "Admin": {
       "Display Name": "Admin",
-      "Distance": 20.0,
+      "Distance": 20,
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": true,
@@ -90,7 +90,7 @@
     },
     "External": {
       "Display Name": "External",
-      "Distance": 20.0,
+      "Distance": 20,
       "Default Time": 300,
       "Max Time": 600,
       "Gibs": true,
@@ -115,10 +115,10 @@
   },
   "Raid Blocker Settings": {
     "Enabled": false,
-    "Block Time": 300.0,
+    "Block Time": 300,
     "By Buildings": true,
     "By Surrounding Players": true,
-    "By Surrounding Players - Radius": 120.0
+    "By Surrounding Players - Radius": 120
   },
   "Image Urls (Used to UI image)": {
     "economics": "https://i.imgur.com/znPwdcv.png",
@@ -3363,7 +3363,48 @@
     "bear": "bear",
     "High External Wooden Gate": "High External Wooden Gate",
     "Door Closer": "Door Closer",
-    "Workbench Level 3": "Workbench Level 3"
+    "Workbench Level 3": "Workbench Level 3",
+    "Armored Double Door": "Armored Double Door",
+    "Armored Door": "Armored Door",
+    "Tuna Can Lamp": "Tuna Can Lamp",
+    "Modular Car Lift": "Modular Car Lift",
+    "1module_passengers_armored": "1module_passengers_armored",
+    "1module_cockpit_with_engine": "1module_cockpit_with_engine",
+    "item_drop_backpack": "item_drop_backpack",
+    "wolf": "wolf",
+    "elevator_lift": "elevator_lift",
+    "bradleyapc": "bradleyapc",
+    "cargoshiptest": "cargoshiptest",
+    "Water Barrel": "Water Barrel",
+    "1module_engine": "1module_engine",
+    "submarineduo.entity": "submarineduo.entity",
+    "Metal Shop Front": "Metal Shop Front",
+    "birch_large_temp": "birch_large_temp",
+    "High External Stone Wall": "High External Stone Wall",
+    "High External Stone Gate": "High External Stone Gate",
+    "Vending Machine": "Vending Machine",
+    "High External Wooden Wall": "High External Wooden Wall",
+    "Triangle Ladder Hatch": "Triangle Ladder Hatch",
+    "servergibs_ch47": "servergibs_ch47",
+    "crate_normal_2": "crate_normal_2",
+    "Land Mine": "Land Mine",
+    "douglas_fir_b": "douglas_fir_b",
+    "birch_big_temp": "birch_big_temp",
+    "junkpile_i": "junkpile_i",
+    "codelockedhackablecrate": "codelockedhackablecrate",
+    "crate_tools": "crate_tools",
+    "Small Water Catcher": "Small Water Catcher",
+    "Wind Turbine": "Wind Turbine",
+    "Metal Barricade": "Metal Barricade",
+    "Electrical Branch": "Electrical Branch",
+    "Root Combiner": "Root Combiner",
+    "Ladder Hatch": "Ladder Hatch",
+    "Large Rechargeable Battery": "Large Rechargeable Battery",
+    "SAM Site": "SAM Site",
+    "Workbench Level 2": "Workbench Level 2",
+    "Drop Box": "Drop Box",
+    "Barbeque": "Barbeque",
+    "Factory Door": "Factory Door"
   },
   "Version": {
     "Major": 4,
