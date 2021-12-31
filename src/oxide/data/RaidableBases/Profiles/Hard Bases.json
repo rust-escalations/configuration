@@ -315,7 +315,7 @@
   "Player Building Restrictions": {
     "Wooden": false,
     "Stone": false,
-    "Metal": false,
+    "Metal": true,
     "HQM": false
   },
   "Water Settings": {
