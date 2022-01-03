@@ -29,6 +29,7 @@ oxide.grant group default vehicledeployedlocks.keylock.duosub
 oxide.grant group default vehicledeployedlocks.keylock.minicopter
 oxide.grant group default vehicledeployedlocks.keylock.rowboat
 oxide.grant group default vehicledeployedlocks.keylock.rhib
+oxide.grant group default vehicledeployedlocks.codelock.ridablehorse
 oxide.grant group default vehicledeployedlocks.keylock.scraptransport
 oxide.grant group default vehicledeployedlocks.keylock.solosub
 oxide.grant group default jail.canenter

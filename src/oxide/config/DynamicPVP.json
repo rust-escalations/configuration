@@ -60,7 +60,7 @@
       "Use Blacklist Commands (If false, a whitelist is used)": true,
       "Command List (If there is a '/' at the front, it is a chat command)": [],
       "Dynamic PVP Zone Settings": {
-        "Zone Radius": 75.0,
+        "Zone Radius": 125.0,
         "Zone Size": {
           "x": 0.0,
           "y": 0.0,
