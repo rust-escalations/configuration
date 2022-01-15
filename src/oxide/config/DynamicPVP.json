@@ -249,9 +249,9 @@
       "Command List (If there is a '/' at the front, it is a chat command)": [],
       "Dynamic PVP Zone Settings": {
         "Zone Size": {
-          "x": 25.9,
+          "x": 103.6,
           "y": 43.3,
-          "z": 152.8
+          "z": 229.2
         },
         "Zone Rotation": 0.0,
         "Fixed Rotation": false,
@@ -1388,7 +1388,7 @@
       "Use Blacklist Commands (If false, a whitelist is used)": true,
       "Command List (If there is a '/' at the front, it is a chat command)": [],
       "Dynamic PVP Zone Settings": {
-        "Zone Radius": 100.0,
+        "Zone Radius": 200.0,
         "Zone Size": {
           "x": 0.0,
           "y": 0.0,
@@ -1426,7 +1426,7 @@
       "Use Blacklist Commands (If false, a whitelist is used)": true,
       "Command List (If there is a '/' at the front, it is a chat command)": [],
       "Dynamic PVP Zone Settings": {
-        "Zone Radius": 100.0,
+        "Zone Radius": 200.0,
         "Zone Size": {
           "x": 0.0,
           "y": 0.0,
