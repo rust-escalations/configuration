@@ -17,18 +17,18 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Dynamic PVP", "CatMeat/Arainrr", "4.2.7", ResourceId = 2728)]
+    [Info("Dynamic PVP", "CatMeat/Arainrr", "4.2.8", ResourceId = 2728)]
     [Description("Creates temporary PvP zones on certain actions/events")]
     public class DynamicPVP : RustPlugin
     {
         #region Fields
 
-        [PluginReference] private readonly Plugin ZoneManager, TruePVE, NextGenPVE, BotSpawn;
+        [PluginReference] private readonly Plugin ZoneManager, TruePVE, NextGenPVE, BotReSpawn;
 
         private const string PERMISSION_ADMIN = "dynamicpvp.admin";
         private const string PREFAB_SPHERE = "assets/prefabs/visualization/sphere.prefab";
         private const string ZONE_NAME = "DynamicPVP";
-        private static object True = true, False = false;
+        private static object True, False;
 
         private readonly Dictionary<string, Timer> eventTimers = new Dictionary<string, Timer>();
         private readonly Dictionary<ulong, LeftZone> pvpDelays = new Dictionary<ulong, LeftZone>();
@@ -84,6 +84,8 @@ namespace Oxide.Plugins
         private void Init()
         {
             LoadData();
+            True = true;
+            False = false;
             permission.RegisterPermission(PERMISSION_ADMIN, this);
             AddCovalenceCommand(configData.chatS.command, nameof(CmdDynamicPVP));
             Unsubscribe(nameof(OnEntitySpawned));
@@ -214,14 +216,14 @@ namespace Oxide.Plugins
         }
 
         private void OnServerSave() => timer.Once(UnityEngine.Random.Range(0f, 60f), () =>
-        {
-            SaveDebug();
-            if (dataChanged)
-            {
-                SaveData();
-                dataChanged = false;
-            }
-        });
+          {
+              SaveDebug();
+              if (dataChanged)
+              {
+                  SaveData();
+                  dataChanged = false;
+              }
+          });
 
         private void OnPlayerRespawned(BasePlayer player)
         {
@@ -966,10 +968,10 @@ namespace Oxide.Plugins
                     else stringBuilder.Append("Dome,");
                 }
 
-                var iBotSpawnEvent = baseEventS as IBotSpawnEvent;
-                if (BotSpawnAllowed(iBotSpawnEvent))
+                var iBotReSpawnEventS = baseEventS as IBotReSpawnEvent;
+                if (BotReSpawnAllowed(iBotReSpawnEventS))
                 {
-                    var botsSpawned = SpawnBots(position, iBotSpawnEvent.botProfileName, zoneID);
+                    var botsSpawned = SpawnBots(position, iBotReSpawnEventS.botProfileName, zoneID);
                     if (!botsSpawned) PrintDebug($"ERROR: Bot NOT spawned for zone({zoneID}).", error: true);
                     else stringBuilder.Append("Bots,");
                 }
@@ -1049,7 +1051,7 @@ namespace Oxide.Plugins
                 else stringBuilder.Append("Dome,");
             }
 
-            if (BotSpawnAllowed(baseEventS as IBotSpawnEvent))
+            if (BotReSpawnAllowed(baseEventS as IBotReSpawnEvent))
             {
                 var botsRemoved = KillBots(zoneID);
                 if (!botsRemoved) PrintDebug($"ERROR: Bot NOT killed for zone({zoneID} | {eventName}).", error: true);
@@ -1201,12 +1203,12 @@ namespace Oxide.Plugins
 
         #endregion TruePVE/NextGenPVE Integration
 
-        #region BotSpawn Integration
+        #region BotReSpawn  Integration
 
-        private bool BotSpawnAllowed(IBotSpawnEvent iBotSpawnEventS)
+        private bool BotReSpawnAllowed(IBotReSpawnEvent iBotReSpawnEventS)
         {
-            if (BotSpawn == null || iBotSpawnEventS == null || string.IsNullOrEmpty(iBotSpawnEventS.botProfileName)) return false;
-            return iBotSpawnEventS.botsEnabled;
+            if (BotReSpawn == null || iBotReSpawnEventS == null || string.IsNullOrEmpty(iBotReSpawnEventS.botProfileName)) return false;
+            return iBotReSpawnEventS.botsEnabled;
         }
 
         private bool SpawnBots(Vector3 zoneLocation, string zoneProfile, string zoneGroupID)
@@ -1242,11 +1244,11 @@ namespace Oxide.Plugins
             return true;
         }
 
-        private string[] CreateGroupSpawn(Vector3 location, string profileName, string group) => (string[])BotSpawn?.Call("AddGroupSpawn", location, profileName, group);
+        private string[] CreateGroupSpawn(Vector3 location, string profileName, string group, int quantity = 0) => (string[])BotReSpawn?.Call("AddGroupSpawn", location, profileName, group, quantity);
 
-        private string[] RemoveGroupSpawn(string group) => (string[])BotSpawn?.Call("RemoveGroupSpawn", group);
+        private string[] RemoveGroupSpawn(string group) => (string[])BotReSpawn?.Call("RemoveGroupSpawn", group);
 
-        #endregion BotSpawn Integration
+        #endregion BotReSpawn  Integration
 
         #region ZoneManager Integration
 
@@ -1392,6 +1394,73 @@ namespace Oxide.Plugins
             }
             dataChanged = true;
             return true;
+        }
+
+        private bool CreateEventData(string eventName, Vector3 position, bool isTimed)
+        {
+            if (EventDataExists(eventName)) return false;
+            if (isTimed)
+            {
+                var timedEventS = new TimedEventS();
+                storedData.timedEvents.Add(eventName, timedEventS);
+            }
+            else
+            {
+                var autoEventS = new AutoEventS { position = position };
+                storedData.autoEvents.Add(eventName, autoEventS);
+            }
+            dataChanged = true;
+            return true;
+        }
+
+        private bool RemoveEventData(string eventName, bool forceClose = true)
+        {
+            if (!EventDataExists(eventName)) return false;
+            storedData.RemoveEventData(eventName);
+            if (forceClose) ForceCloseZones(eventName);
+            dataChanged = true;
+            return true;
+        }
+
+        private bool StartEvent(string eventName, Vector3 position)
+        {
+            if (!EventDataExists(eventName)) return false;
+            var autoEventS = GetBaseEventS(eventName) as AutoEventS;
+            if (autoEventS != null)
+            {
+                CreateDynamicZone(eventName, position == default(Vector3) ? autoEventS.position : position, autoEventS.zoneID);
+            }
+            else
+            {
+                CreateDynamicZone(eventName, position);
+            }
+            return true;
+        }
+
+        // private bool UpdateEventDataValue()
+        // {
+        // }
+
+        private bool StopEvent(string eventName)
+        {
+            if (!EventDataExists(eventName)) return false;
+            return ForceCloseZones(eventName);
+        }
+
+        private bool ForceCloseZones(string eventName)
+        {
+            bool closed = false;
+            foreach (var entry in activeDynamicZones.ToArray())
+            {
+                if (entry.Value == eventName)
+                {
+                    if (DeleteDynamicZone(entry.Key))
+                    {
+                        closed = true;
+                    }
+                }
+            }
+            return closed;
         }
 
         #endregion API
@@ -1540,70 +1609,6 @@ namespace Oxide.Plugins
             }
         }
 
-        private bool CreateEventData(string eventName, Vector3 position, bool isTimed)
-        {
-            if (EventDataExists(eventName)) return false;
-            if (isTimed)
-            {
-                var timedEventS = new TimedEventS();
-                storedData.timedEvents.Add(eventName, timedEventS);
-            }
-            else
-            {
-                var autoEventS = new AutoEventS { position = position };
-                storedData.autoEvents.Add(eventName, autoEventS);
-            }
-            dataChanged = true;
-            return true;
-        }
-
-        private bool RemoveEventData(string eventName)
-        {
-            if (!EventDataExists(eventName)) return false;
-            storedData.RemoveEventData(eventName);
-            ForceCloseZones(eventName);
-            dataChanged = true;
-            return true;
-        }
-
-        private bool StartEvent(string eventName, Vector3 position)
-        {
-            if (!EventDataExists(eventName)) return false;
-            var autoEventS = GetBaseEventS(eventName) as AutoEventS;
-            if (autoEventS != null)
-            {
-                CreateDynamicZone(eventName, autoEventS.position, autoEventS.zoneID);
-            }
-            else
-            {
-                CreateDynamicZone(eventName, position);
-            }
-            return true;
-        }
-
-        private bool StopEvent(string eventName)
-        {
-            if (!EventDataExists(eventName)) return false;
-            ForceCloseZones(eventName);
-            return true;
-        }
-
-        private bool ForceCloseZones(string eventName)
-        {
-            bool closed = false;
-            foreach (var entry in activeDynamicZones.ToArray())
-            {
-                if (entry.Value == eventName)
-                {
-                    if (DeleteDynamicZone(entry.Key))
-                    {
-                        closed = true;
-                    }
-                }
-            }
-            return closed;
-        }
-
         #endregion Commands
 
         #region ConfigurationFile
@@ -1613,13 +1618,13 @@ namespace Oxide.Plugins
         private class ConfigData
         {
             [JsonProperty(PropertyName = "Global Settings")]
-            public GlobalS global = new GlobalS();
+            public GlobalSettings global = new GlobalSettings();
 
             [JsonProperty(PropertyName = "Chat Settings")]
-            public ChatS chatS = new ChatS();
+            public ChatSettings chatS = new ChatSettings();
 
             [JsonProperty(PropertyName = "General Event Settings")]
-            public GeneralEventS generalEvents = new GeneralEventS();
+            public GeneralEventSettings generalEvents = new GeneralEventSettings();
 
             [JsonProperty(PropertyName = "Monument Event Settings")]
             public Dictionary<string, MonumentEventS> monumentEvents = new Dictionary<string, MonumentEventS>();
@@ -1628,7 +1633,7 @@ namespace Oxide.Plugins
             public VersionNumber version;
         }
 
-        private class GlobalS
+        private class GlobalSettings
         {
             [JsonProperty(PropertyName = "Enable Debug Mode")]
             public bool debugEnabled;
@@ -1646,7 +1651,7 @@ namespace Oxide.Plugins
             public PVPDelayFlags pvpDelayFlags = PVPDelayFlags.ZonePlayersCanDamageDelayedPlayers | PVPDelayFlags.DelayedPlayersCanDamageDelayedPlayers | PVPDelayFlags.DelayedPlayersCanDamageZonePlayers;
         }
 
-        public class ChatS
+        public class ChatSettings
         {
             [JsonProperty(PropertyName = "Command")]
             public string command = "dynpvp";
@@ -1661,7 +1666,7 @@ namespace Oxide.Plugins
             public ulong steamIDIcon = 0;
         }
 
-        private class GeneralEventS
+        private class GeneralEventSettings
         {
             [JsonProperty(PropertyName = "Bradley Event")]
             public TimedEventS bradleyAPC = new TimedEventS();
@@ -1707,10 +1712,13 @@ namespace Oxide.Plugins
             [JsonProperty(PropertyName = "TruePVE Mapping", Order = 8)]
             public string mapping = "exclude";
 
-            [JsonProperty(PropertyName = "Use Blacklist Commands (If false, a whitelist is used)", Order = 9)]
+            // [JsonProperty(PropertyName = "Do not create a new zone when in the same event type of pvp zone", Order = 9)]
+            // public bool dontCreateWhenInSameType = false;
+
+            [JsonProperty(PropertyName = "Use Blacklist Commands (If false, a whitelist is used)", Order = 10)]
             public bool useBlacklistCommands = true;
 
-            [JsonProperty(PropertyName = "Command List (If there is a '/' at the front, it is a chat command)", Order = 10)]
+            [JsonProperty(PropertyName = "Command List (If there is a '/' at the front, it is a chat command)", Order = 11)]
             public List<string> commandList = new List<string>();
 
             public abstract BaseDynamicZoneS GetDynamicZoneS();
@@ -1730,7 +1738,7 @@ namespace Oxide.Plugins
             }
         }
 
-        private class BotDomeMixedEventS : DomeMixedEventS, IBotSpawnEvent
+        private class BotDomeMixedEventS : DomeMixedEventS, IBotReSpawnEvent
         {
             public bool botsEnabled { get; set; }
             public string botProfileName { get; set; } = string.Empty;
@@ -1827,7 +1835,7 @@ namespace Oxide.Plugins
             float duration { get; set; }
         }
 
-        private interface IBotSpawnEvent
+        private interface IBotReSpawnEvent
         {
             [JsonProperty(PropertyName = "Enable Bots (Need BotSpawn Plugin)", Order = 21)]
             bool botsEnabled { get; set; }
@@ -2219,12 +2227,9 @@ namespace Oxide.Plugins
             {
                 storedData = null;
             }
-            finally
+            if (storedData == null)
             {
-                if (storedData == null)
-                {
-                    ClearData();
-                }
+                ClearData();
             }
         }
 
@@ -2258,7 +2263,18 @@ namespace Oxide.Plugins
             Player.Message(player, message, string.IsNullOrEmpty(configData.chatS.prefix) ? null : $"<color={configData.chatS.prefixColor}>{configData.chatS.prefix}</color>", configData.chatS.steamIDIcon);
         }
 
-        private string Lang(string key, string id = null, params object[] args) => string.Format(lang.GetMessage(key, this, id), args);
+        private string Lang(string key, string id = null, params object[] args)
+        {
+            try
+            {
+                return string.Format(lang.GetMessage(key, this, id), args);
+            }
+            catch (Exception)
+            {
+                PrintError($"Error in the language formatting of '{key}'. (userid: {id}. lang: {lang.GetLanguage(id)}. args: {string.Join(" ,", args)})");
+                throw;
+            }
+        }
 
         protected override void LoadDefaultMessages()
         {
